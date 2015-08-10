@@ -1,0 +1,116 @@
+<internal_error>
+	<executable>quartus_cdb.exe</executable>
+	<sub_system>QATM</sub_system>
+	<file>/quartus/atm/qatm/qatm_mif_update.cpp</file>
+	<line>576</line>
+	<callstack>
+	0x0041e9c2: quartus_cdb + 0x1e9c2 (Dbm_Uninit + 0x1a6d2)
+	0x03534ea6: db_cdb_mgr + 0x4ea6 (?get_voltage_at_pin@CDB_CHIP_DB_ENTRY@@QBI?AW4DEV_VOLTAGE_ENUM@@I@Z + 0x56)
+	</callstack>
+	<error>RAM/CAM MIF reconfig failed</error>
+	<date>Tue Aug 26 15:04:52 2014</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>RAM/CAM MIF reconfig failed
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x099802d1: sld_red + 0x102d1 (sld_red_dll_get_template_classes + 0x7eb1)
+	0x6b41af5f: mfc90 + 0x25af5f
+	0x0998104c: sld_red + 0x1104c (sld_red_dll_get_template_classes + 0x8c2c)
+	0x0998154b: sld_red + 0x1154b (sld_red_dll_get_template_classes + 0x912b)
+	0x6b24d955: mfc90 + 0x8d955
+	0x6b21be7f: mfc90 + 0x5be7f
+	0x100062ac: GCL_AFC + 0x62ac (?OnWndMsg@AFC_NESTED_FRAME@@UAEHIIJPAJ@Z + 0x3c)
+	0x6b21ba48: mfc90 + 0x5ba48
+	0x6b21a63c: mfc90 + 0x5a63c
+	0x6b21a8c8: mfc90 + 0x5a8c8
+	0x6b2185b2: mfc90 + 0x585b2
+	0x75de62f9: USER32 + 0x162f9 (gapfnScSendMessage + 0x331)
+	0x75de7315: USER32 + 0x17315 (GetDC + 0x51)
+	0x75de6de7: USER32 + 0x16de7 (GetThreadDesktop + 0x184)
+	0x75de6e43: USER32 + 0x16e43 (GetThreadDesktop + 0x1e0)
+	0x77180109: ntdll + 0x10109 (KiUserCallbackDispatcher + 0x2d)
+	0x75de7bc9: USER32 + 0x17bc9 (DispatchMessageA + 0xe)
+	0x6b25a866: mfc90 + 0x9a866
+	0x00331968: ccl_thr + 0x1968 (thr_thread_var_destroy + 0x28)
+	0x6b2271e7: mfc90 + 0x671e7
+	0x0044f42e: quartus + 0x4f42e (Pjm_Uninit + 0x401ee)
+	0x75a33389: kernel32 + 0x13389 (BaseThreadInitThunk + 0x11)
+	0x771a9f71: ntdll + 0x39f71 (RtlInitializeExceptionChain + 0x62)
+	0x771a9f44: ntdll + 0x39f44 (RtlInitializeExceptionChain + 0x35)
+	0xffffffffffffffff:
+	</callstack>
+	<error>Current editor: STED, RPW, MED</error>
+	<date>Tue Aug 26 15:50:06 2014</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>Access Violation at 0X099802D1
+Current editor: STED, RPW, MED
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x0fc802c8: sld_red + 0x102c8 (sld_red_dll_get_template_classes + 0x7ea8)
+	0x6859af5f: mfc90 + 0x25af5f
+	0x0fc8104c: sld_red + 0x1104c (sld_red_dll_get_template_classes + 0x8c2c)
+	0x0fc8154b: sld_red + 0x1154b (sld_red_dll_get_template_classes + 0x912b)
+	0x683cd955: mfc90 + 0x8d955
+	0x6839be7f: mfc90 + 0x5be7f
+	0x100062ac: GCL_AFC + 0x62ac (?OnWndMsg@AFC_NESTED_FRAME@@UAEHIIJPAJ@Z + 0x3c)
+	0x6839ba48: mfc90 + 0x5ba48
+	0x6839a63c: mfc90 + 0x5a63c
+	0x6839a8c8: mfc90 + 0x5a8c8
+	0x683985b2: mfc90 + 0x585b2
+	0x753762f9: USER32 + 0x162f9 (gapfnScSendMessage + 0x331)
+	0x75377315: USER32 + 0x17315 (GetDC + 0x51)
+	0x75376de7: USER32 + 0x16de7 (GetThreadDesktop + 0x184)
+	0x75376e43: USER32 + 0x16e43 (GetThreadDesktop + 0x1e0)
+	0x777d0109: ntdll + 0x10109 (KiUserCallbackDispatcher + 0x2d)
+	0x75377bc9: USER32 + 0x17bc9 (DispatchMessageA + 0xe)
+	0x683da866: mfc90 + 0x9a866
+	0x002b1968: ccl_thr + 0x1968 (thr_thread_var_destroy + 0x28)
+	0x683a71e7: mfc90 + 0x671e7
+	0x0044f42e: quartus + 0x4f42e (Pjm_Uninit + 0x401ee)
+	0x74da3389: kernel32 + 0x13389 (BaseThreadInitThunk + 0x11)
+	0x777f9f71: ntdll + 0x39f71 (RtlInitializeExceptionChain + 0x62)
+	0x777f9f44: ntdll + 0x39f44 (RtlInitializeExceptionChain + 0x35)
+	0xffffffffffffffff:
+	</callstack>
+	<error>Current editor: RPW, STED</error>
+	<date>Wed Aug 27 10:25:30 2014</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>Access Violation at 0X0FC802C8
+Current editor: RPW, STED
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x00f72150: DB_HDB + 0x92150 (?stack_pop_front@HDB_NAME_MGR@@AAIXXZ + 0x50)
+	0x00f78707: DB_HDB + 0x98707 (?close_cap_inst_for_delete@HDB_NAME_MGR@@QAIXXZ + 0x67)
+	0x00f4cdc3: DB_HDB + 0x6cdc3 (?close_all_cap_inst@HDB_CMP_ACTION_PT_INSTANCE@@SI_NXZ + 0xd3)
+	0x012e55e2: DB_DBMUI + 0x55e2 (?close_hdb_all_cap_inst@DBMUI_MANAGER@@QAI_NPBD@Z + 0xf2)
+	0x012e60e9: DB_DBMUI + 0x60e9 (?flow_has_started@DBMUI_MANAGER@@QAIXXZ + 0x29)
+	</callstack>
+	<error>Current editor: STED, STED, STED, RPW</error>
+	<date>Tue Nov 11 14:57:53 2014</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>Access Violation at 0X00F72150
+Current editor: STED, STED, STED, RPW
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+

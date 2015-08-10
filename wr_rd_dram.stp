@@ -1,0 +1,307 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP3C25 (0x020F30DD)" sof_file="ArrayUltrasound.sof" top_level_entity="ArrayUltrasound">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="lock mode" value="36110"/>
+    <multi attribute="window position" size="9" value="1600,783,398,125,356,50,65,0,0"/>
+  </global_info>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <position_info>
+      <single attribute="active tab" value="1"/>
+      <single attribute="setup vertical scroll position" value="0"/>
+      <single attribute="setup horizontal scroll position" value="0"/>
+      <single attribute="data vertical scroll position" value="0"/>
+      <single attribute="data horizontal scroll position" value="0"/>
+      <single attribute="zoom level numerator" value="1"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="130944"/>
+      <single attribute="zoom offset denominator" value="1"/>
+      <multi attribute="timebars" size="1" value="40"/>
+    </position_info>
+    <signal_set global_temp="1" name="signal_set: 2014/08/26 19:07:48  #0">
+      <clock name="sysclk" polarity="posedge" tap_mode="classic"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="128" trigger_in_enable="no" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="DSC:DSC_Inst|Column[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC_RAM[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[10]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[11]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[12]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[13]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[7]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[8]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[9]" tap_mode="classic" type="register"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[7]" tap_mode="classic" type="combinatorial"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="DSC:DSC_Inst|Column[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC_RAM[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[10]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[11]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[12]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[13]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[7]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[8]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[9]" tap_mode="classic" type="register"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[7]" tap_mode="classic" type="combinatorial"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="DSC:DSC_Inst|Column[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC_RAM[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[10]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[11]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[12]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[13]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[7]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[8]" tap_mode="classic" type="register"/>
+          <wire name="DSC_RAM[9]" tap_mode="classic" type="register"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[7]" tap_mode="classic" type="combinatorial"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <data_view>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|Row" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[0]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[1]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[2]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[3]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[4]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[5]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[6]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[7]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[8]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[9]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|Column" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[0]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[1]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[2]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[3]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[4]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[5]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[6]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[7]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[8]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[9]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC_RAM" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="DSC_RAM[0]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[1]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[2]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[3]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[4]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[5]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[6]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[7]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[8]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[9]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[10]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[11]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[12]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[13]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="ImaDRAM:ImaDRAM_inst|q" order="lsb_to_msb" radix="line" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[0]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[1]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[2]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[3]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[4]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[5]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[6]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[7]"/>
+          </bus>
+        </data_view>
+        <setup_view>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|Row" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[0]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[1]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[2]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[3]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[4]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[5]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[6]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[7]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[8]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[9]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|Column" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[0]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[1]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[2]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[3]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[4]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[5]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[6]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[7]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[8]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[9]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC_RAM" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="DSC_RAM[0]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[1]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[2]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[3]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[4]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[5]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[6]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[7]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[8]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[9]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[10]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[11]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[12]"/>
+            <net is_signal_inverted="no" name="DSC_RAM[13]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="ImaDRAM:ImaDRAM_inst|q" order="lsb_to_msb" radix="line" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[0]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[1]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[2]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[3]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[4]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[5]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[6]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[7]"/>
+          </bus>
+        </setup_view>
+      </presentation>
+      <trigger CRC="FF199E12" attribute_mem_mode="false" gap_record="true" global_temp="1" name="trigger: 2014/08/26 19:07:48  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_in="dont_care" trigger_out="active high" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no" trigger_in="dont_care" trigger_out="active high"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">'DSC:DSC_Inst|Column[0]' == high &amp;&amp; 'DSC:DSC_Inst|Column[1]' == low &amp;&amp; 'DSC:DSC_Inst|Column[2]' == low &amp;&amp; 'DSC:DSC_Inst|Column[3]' == high &amp;&amp; 'DSC:DSC_Inst|Column[4]' == low &amp;&amp; 'DSC:DSC_Inst|Column[5]' == high &amp;&amp; 'DSC:DSC_Inst|Column[6]' == low &amp;&amp; 'DSC:DSC_Inst|Column[7]' == high &amp;&amp; 'DSC:DSC_Inst|Column[8]' == low &amp;&amp; 'DSC:DSC_Inst|Column[9]' == low &amp;&amp; 'DSC:DSC_Inst|Row[0]' == low &amp;&amp; 'DSC:DSC_Inst|Row[1]' == high &amp;&amp; 'DSC:DSC_Inst|Row[2]' == low &amp;&amp; 'DSC:DSC_Inst|Row[3]' == low &amp;&amp; 'DSC:DSC_Inst|Row[4]' == high &amp;&amp; 'DSC:DSC_Inst|Row[5]' == low &amp;&amp; 'DSC:DSC_Inst|Row[6]' == high &amp;&amp; 'DSC:DSC_Inst|Row[7]' == high &amp;&amp; 'DSC:DSC_Inst|Row[8]' == low &amp;&amp; 'DSC:DSC_Inst|Row[9]' == low
+            <power_up enabled="yes">
+            </power_up>
+            <op_node/>
+          </level>
+        </events>
+        <storage_qualifier_events>
+          <transitional>000000000000000000000000000000000000000000
+            <pwr_up_transitional>000000000000000000000000000000000000000000
+            </pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+        <log>
+          <data global_temp="1" name="log: 2014/08/26 19:12:10  #0" power_up_mode="false" sample_depth="128" trigger_position="16">111001010001001011000000000000000000000000111001010001001011000000000000000000000000111001010001001011000000000000000000000000111001010001001011000000000000000000000000111001010001001011000000000000000000000000111001010001001011000000000000000000000000111001010001001011000000000000000000000000111001010001001011000000000000000000000000000101010001001011000000000000000000000000000101010001001011000000000000000000000000000101010001001011000000000000000000000000000101010001001011000000000000000000000000000101010001001011000000000000000000000000000101010001001011000000000000000000000000000101010001001011000000000000000000000000000101010001001011000000000000000000000000100101010001001011000000000000000000000000100101010001001011000000000000000000000000100101010001001011000000000000000000000000100101010001001011000000000000000000000000100101010001001011000000000000000000000000100101010001001011000000000000000000000000100101010001001011000000000000000000000000100101010001001011000000000000000000000000010101010001001011000000000000000000000000010101010001001011000000000000000011111111010101010001001011000000000000000011111111010101010001001011000000000000000011111111010101010001001011000000000000000011111111010101010001001011000000000000000011111111010101010001001011000000000000000011111111010101010001001011000000000000000011111111110101010001001011000000000000000011111111110101010001001011000000000000000011111111110101010001001011000000000000000011111111110101010001001011000000000000000011111111110101010001001011000000000000000011111111110101010001001011000000000000000011111111110101010001001011000000000000000011111111110101010001001011000000000000000011111111001101010001001011000000000000000011111111001101010001001011000000000000000011111111001101010001001011000000000000000011111111001101010001001011000000000000000011111111001101010001001011000000000000000011111111001101010001001011000000000000000011111111001101010001001011000000000000000011111111001101010001001011000000000000000011111111101101010001001011000000000000000011111111101101010001001011000000000000000000000000101101010001001011000000000000000000000000101101010001001011000000000000000000000000101101010001001011000000000000000000000000101101010001001011000000000000000000000000101101010001001011000000000000000000000000101101010001001011000000000000000000000000011101010001001011000000000000000000000000011101010001001011000000000000000000000000011101010001001011000000000000000000000000011101010001001011000000000000000000000000011101010001001011000000000000000000000000011101010001001011000000000000000000000000011101010001001011000000000000000000000000011101010001001011000000000000000000000000111101010001001011000000000000000000000000111101010001001011000000000000000000000000111101010001001011000000000000000000000000111101010001001011000000000000000000000000111101010001001011000000000000000000000000111101010001001011000000000000000000000000111101010001001011000000000000000000000000111101010001001011000000000000000000000000000011010001001011000000000000000000000000000011010001001011000000000000000000000000000011010001001011000000000000000000000000000011010001001011000000000000000000000000000011010001001011000000000000000000000000000011010001001011000000000000000000000000000011010001001011000000000000000000000000000011010001001011000000000000000000000000100011010001001011000000000000000000000000100011010001001011000000000000000000000000100011010001001011000000000000000000000000100011010001001011000000000000000000000000100011010001001011000000000000000000000000100011010001001011000000000000000000000000100011010001001011000000000000000000000000100011010001001011000000000000000000000000010011010001001011000000000000000000000000010011010001001011000000000000000000000000010011010001001011000000000000000000000000010011010001001011000000000000000000000000010011010001001011000000000000000000000000010011010001001011000000000000000000000000010011010001001011000000000000000000000000010011010001001011000000000000000000000000110011010001001011000000000000000000000000110011010001001011000000000000000000000000110011010001001011000000000000000000000000110011010001001011000000000000000000000000110011010001001011000000000000000000000000110011010001001011000000000000000000000000110011010001001011000000000000000000000000110011010001001011000000000000000000000000001011010001001011000000000000000000000000001011010001001011000000000000000000000000001011010001001011000000000000000000000000001011010001001011000000000000000000000000001011010001001011000000000000000000000000001011010001001011000000000000000000000000001011010001001011000000000000000000000000001011010001001011000000000000000000000000101011010001001011000000000000000000000000101011010001001011000000000000000000000000101011010001001011000000000000000000000000101011010001001011000000000000000000000000101011010001001011000000000000000000000000101011010001001011000000000000000000000000101011010001001011000000000000000000000000101011010001001011000000000000000000000000011011010001001011000000000000000000000000011011010001001011000000000000000000000000011011010001001011000000000000000000000000011011010001001011000000000000000000000000011011010001001011000000000000000000000000011011010001001011000000000000000000000000011011010001001011000000000000000000000000011011010001001011000000000000000000000000</data>
+          <extradata>1111111111111111T111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</extradata>
+        </log>
+      </trigger>
+    </signal_set>
+  </instance>
+  <mnemonics/>
+  <static_plugin_mnemonics/>
+</session>

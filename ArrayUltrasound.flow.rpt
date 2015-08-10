@@ -1,0 +1,727 @@
+Flow report for ArrayUltrasound
+Thu Jul 30 14:09:36 2015
+Quartus II 32-bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Thu Jul 30 14:09:29 2015       ;
+; Quartus II 32-bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
+; Revision Name                      ; ArrayUltrasound                             ;
+; Top-level Entity Name              ; ArrayUltrasound                             ;
+; Family                             ; Cyclone III                                 ;
+; Device                             ; EP3C40F484C8                                ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 13,763 / 39,600 ( 35 % )                    ;
+;     Total combinational functions  ; 10,524 / 39,600 ( 27 % )                    ;
+;     Dedicated logic registers      ; 11,881 / 39,600 ( 30 % )                    ;
+; Total registers                    ; 11929                                       ;
+; Total pins                         ; 80 / 332 ( 24 % )                           ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 853,016 / 1,161,216 ( 73 % )                ;
+; Embedded Multiplier 9-bit elements ; 16 / 252 ( 6 % )                            ;
+; Total PLLs                         ; 2 / 4 ( 50 % )                              ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 07/28/2015 17:00:11 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; ArrayUltrasound     ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                 ;
++-------------------------------------+--------------------------------------------------------------------------------+--------------------+-------------+------------------------+
+; Assignment Name                     ; Value                                                                          ; Default Value      ; Entity Name ; Section Id             ;
++-------------------------------------+--------------------------------------------------------------------------------+--------------------+-------------+------------------------+
+; COMPILER_SIGNATURE_ID               ; 184857108192115.143807401104594                                                ; --                 ; --          ; --                     ;
+; CYCLONEII_OPTIMIZATION_TECHNIQUE    ; Area                                                                           ; Balanced           ; --          ; --                     ;
+; CYCLONE_OPTIMIZATION_TECHNIQUE      ; Speed                                                                          ; Balanced           ; --          ; --                     ;
+; ENABLE_SIGNALTAP                    ; Off                                                                            ; --                 ; --          ; --                     ;
+; FITTER_EFFORT                       ; Standard Fit                                                                   ; Auto Fit           ; --          ; --                     ;
+; IP_TOOL_NAME                        ; ROM: 1-PORT                                                                    ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; ROM: 1-PORT                                                                    ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; ALTPLL                                                                         ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; ROM: 1-PORT                                                                    ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; ALTLVDS                                                                        ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; RAM: 2-PORT                                                                    ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; ROM: 1-PORT                                                                    ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; FIR Compiler                                                                   ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; LPM_ABS                                                                        ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; FIR Compiler                                                                   ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; ROM: 1-PORT                                                                    ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; ROM: 1-PORT                                                                    ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; RAM: 2-PORT                                                                    ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; ROM: 1-PORT                                                                    ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; ROM: 1-PORT                                                                    ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; ROM: 1-PORT                                                                    ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; RAM: 2-PORT                                                                    ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; ROM: 1-PORT                                                                    ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; ROM: 1-PORT                                                                    ; --                 ; --          ; --                     ;
+; IP_TOOL_NAME                        ; RAM: 3-PORT                                                                    ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 9.0                                                                            ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 13.0                                                                           ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 9.0                                                                            ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 13.0                                                                           ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 9.0                                                                            ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 9.0                                                                            ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 9.0                                                                            ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 9.0                                                                            ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 9.0                                                                            ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 9.0                                                                            ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 9.0                                                                            ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 9.0                                                                            ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 9.0                                                                            ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 13.1                                                                           ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 9.0                                                                            ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 9.0                                                                            ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 9.0                                                                            ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 13.0                                                                           ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 9.0                                                                            ; --                 ; --          ; --                     ;
+; IP_TOOL_VERSION                     ; 9.0                                                                            ; --                 ; --          ; --                     ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                                             ; --                 ; --          ; --                     ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; Transmit_Delay_ROM.bsf                                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; Transmit_Delay_ROM_inst.v                                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; Transmit_Delay_ROM_bb.v                                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; Transmit_Delay_ROM.inc                                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; Transmit_Delay_ROM.cmp                                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; HW_SW.bsf                                                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; HW_SW_inst.v                                                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; HW_SW_bb.v                                                                     ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; HW_SW.inc                                                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; HW_SW.cmp                                                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; PLL.bsf                                                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; PLL_inst.v                                                                     ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; PLL_bb.v                                                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; PLL.inc                                                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; PLL.cmp                                                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; PLL.ppf                                                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; R_SEQ.bsf                                                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; R_SEQ_inst.v                                                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; R_SEQ_bb.v                                                                     ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; R_SEQ.inc                                                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; R_SEQ.cmp                                                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; LVDS_AD.bsf                                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; LVDS_AD_inst.v                                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; LVDS_AD_bb.v                                                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; LVDS_AD.inc                                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; LVDS_AD.cmp                                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; LVDS_AD.ppf                                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; DPRAM.bsf                                                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; DPRAM_inst.v                                                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; DPRAM_bb.v                                                                     ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; DPRAM.inc                                                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; DPRAM.cmp                                                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; CoarseDelay.bsf                                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; CoarseDelay_inst.v                                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; CoarseDelay_bb.v                                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; CoarseDelay.inc                                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; CoarseDelay.cmp                                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/accum.v                                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/addr_cnt_dn.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/addr_cnt_dn_poly.v                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/addr_cnt_up.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/at_sink_mod.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/at_sink_mod_bin.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/at_sink_mod_par.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/at_src_mod.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/at_src_mod_par.v                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_block_sink_fir_90.vhd          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_block_source_fir_90.vhd        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_controller_fir_90.vhd          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_controller_pe_fir_90.vhd       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_monitor_fir_90.vhd             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_sink_fir_90.vhd                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_sink_model_fir_90.vhd          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_source_fir_90.vhd              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_source_from_monitor_fir_90.vhd ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_source_model_fir_90.vhd        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_delay_fir_90.vhd                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fastaddsub_fir_90.vhd                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fastadd_fir_90.vhd                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fast_accumulator_fir_90.vhd                     ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fifo_pfc_fir_90.vhd                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_accumulator_fir_90.vhd                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_adders_fir_90.vhd                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_adder_tree_fir_90.vhd                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_avalon_slave_write_fir_90.vhd               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_coef_banks_fixed_fir_90.vhd                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_data_memory_bank_fir_90.vhd                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_dspblock_bank_fir_90.vhd                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_dspblock_cascade_bank_fir_90.vhd            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_lib_pkg_fir_90.vhd                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_math_pkg_fir_90.vhd                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_memory_simple_dual_fir_90.vhd               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_memory_single_fir_90.vhd                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_memory_true_dual_fir_90.vhd                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_mult_bank_fir_90.vhd                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_top_dec_half_sym_fir_90.vhd                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_top_dec_sym_add_cas_fir_90.vhd              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_top_int_sym_fir_90.vhd                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_top_sin_sym_fir_90.vhd                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_lib_pkg_fir_90.vhd                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_math_pkg_fir_90.vhd                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_pfc_fir_90.vhd                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_pipelined_adder_fir_90.vhd                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_roundsat_fir_90.vhd                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_text_pkg_fir_90.vhd                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/coef_in_conv.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/data_cnt_dn_stat.v                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/data_cnt_up.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/data_sel_dec.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/dat_mm_brg.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/dat_store.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/dat_store_c.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/decoder_we.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/decoder_we_cen.v                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/delay.v                                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/delay_cen.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/delay_mul.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/delay_mul_cen.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/delay_mux.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/delay_mux_mch_odd.v                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/delay_mux_mch_odd_mcv.v                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/delay_trig.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/delay_trig_cen.v                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/eab_tdl_hc.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/eab_tdl_strat.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/eab_tdl_strat_mram.v                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/fir_definitions_pkg_fir_90.vhd                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/lc_store.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/lc_store_cen.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/lc_tdl_strat.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/lc_tdl_strat_cen.v                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/maccum.v                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/maccum_cen.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mac_tl.v                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mcv_ctrl_deci.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mcv_ctrl_nc.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu.v                                                     ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu_dly1.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu_dly2.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu_inf_1reg.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu_inf_1reg_cen.v                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu_inf_2reg.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu_inf_2reg_cen.v                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu_nd.v                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu_nd_cen.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu_nd_lc.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_accum_wr.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_acc_ctrl_cen_wr.v                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_acc_ctrl_wr.v                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_decoder_we_wr.v                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_del_coef_set.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_dnc_wr.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_lcdelay_wr.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_lcstore_wr.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_lrdy_wr.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_mux_2to1_cen_wr.v                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_mux_2to1_wr.v                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_ser_shift_wr.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_upc_reload_wr.v                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_upc_wr.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft.v                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_data.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_data_reseq.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_data_reseq_mc.v                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_lt_128.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_lt_32.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_mcv.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_mem.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_mem_coef.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_mem_hc.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_mem_mcoef.v                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_mem_reseq.v                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_mem_reseq_hc.v                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_mem_reseq_mcycle.v                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_reseq_mc.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_scv.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mul_add.v                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mux_16.v                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mux_16_cen.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mux_2to1.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mux_2to1_cen.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mux_2to1_comb.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mux_nc.v                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/para_tdl.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/par_ctrl.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/par_ld_ser_tdl_nc.v                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/par_ld_ser_tdl_wr.v                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/pll_fir.v                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/poly_mac_ctrl_dec.v                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/poly_mac_ctrl_int.v                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ram_2pt_mram_cen.v                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ram_2pt_var.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ram_2pt_var_cen.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ram_2pt_var_cen_hc.v                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ram_inf.v                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ram_lut.v                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ram_lut_cen.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rnd_dat.v                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_6_lut.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_6_lut_r.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_lut.v                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_lut_cen.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_lut_r.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_lut_r_cen.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_mset_lut.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_mset_lut_r.v                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_mset_lut_r_cen.v                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_mset_lut_r_cen_wr.v                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_mset_lut_r_wr.v                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd.v                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_c.v                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_cen.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_c_cen.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_load.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_lpm.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_lpm_cen.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_lpm_reg_top_cen.v                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_reg_top.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_reg_top_cen.v                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_sub.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sat_dat.v                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/scale_accum.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/scale_accum_cen.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/scale_shft_comb.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/scale_shft_comb_cen.v                                     ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/scv_ctrl.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/scv_ctrl_deci.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sc_add.v                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ser_ctrl_cen.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ser_shft.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ser_shft_cen.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ser_shift.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sgn_ext.v                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/shift_in.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/shift_out.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/slave2slave.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ssub.v                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ssub_c.v                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ssub_cen.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ssub_lpm.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ssub_lpm_cen.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sym_add_ser.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sym_add_ser_cen.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sym_sub_ser_cen.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/tdl_da_lc.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/trig_buf.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/trig_buf_l.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/trig_buf_r.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/tsadd.v                                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/tsadd_c.v                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/tsadd_cen.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/tsadd_c_cen.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/tsadd_lpm.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/tsadd_lpm_cen.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/tsadd_lpm_reg_top_cen.v                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/tsadd_reg_top_cen.v                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/u2ssub.v                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/u2ssub_cen.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/uadd.v                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/uadd_cen.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/wr_en_gen.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; matchfilter.v                                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; matchfilter_bb.v                                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; matchfilter.bsf                                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; matchfilter_ast.vhd                                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; matchfilter_constraints.tcl                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; matchfilter_mlab.m                                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; matchfilter_model.m                                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; matchfilter.vec                                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; tb_matchfilter.vhd                                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; matchfilter_msim.tcl                                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; matchfilter_input.txt                                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; matchfilter_coef_int.txt                                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; matchfilter_param.txt                                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; matchfilter_silent_param.txt                                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; matchfilter.qip                                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; matchfilter.html                                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; ABS.bsf                                                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; ABS_inst.v                                                                     ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; ABS_bb.v                                                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; ABS.inc                                                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; ABS.cmp                                                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/accum.v                                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/addr_cnt_dn.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/addr_cnt_dn_poly.v                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/addr_cnt_up.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/at_sink_mod.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/at_sink_mod_bin.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/at_sink_mod_par.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/at_src_mod.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/at_src_mod_par.v                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_block_sink_fir_90.vhd          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_block_source_fir_90.vhd        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_controller_fir_90.vhd          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_controller_pe_fir_90.vhd       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_monitor_fir_90.vhd             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_sink_fir_90.vhd                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_sink_model_fir_90.vhd          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_source_fir_90.vhd              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_source_from_monitor_fir_90.vhd ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_avalon_streaming_source_model_fir_90.vhd        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_delay_fir_90.vhd                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fastaddsub_fir_90.vhd                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fastadd_fir_90.vhd                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fast_accumulator_fir_90.vhd                     ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fifo_pfc_fir_90.vhd                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_accumulator_fir_90.vhd                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_adders_fir_90.vhd                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_adder_tree_fir_90.vhd                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_avalon_slave_write_fir_90.vhd               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_coef_banks_fixed_fir_90.vhd                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_data_memory_bank_fir_90.vhd                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_dspblock_bank_fir_90.vhd                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_dspblock_cascade_bank_fir_90.vhd            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_lib_pkg_fir_90.vhd                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_math_pkg_fir_90.vhd                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_memory_simple_dual_fir_90.vhd               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_memory_single_fir_90.vhd                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_memory_true_dual_fir_90.vhd                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_mult_bank_fir_90.vhd                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_top_dec_half_sym_fir_90.vhd                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_top_dec_sym_add_cas_fir_90.vhd              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_top_int_sym_fir_90.vhd                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_fir_top_sin_sym_fir_90.vhd                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_lib_pkg_fir_90.vhd                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_math_pkg_fir_90.vhd                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_pfc_fir_90.vhd                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_pipelined_adder_fir_90.vhd                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_roundsat_fir_90.vhd                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/auk_dspip_text_pkg_fir_90.vhd                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/coef_in_conv.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/data_cnt_dn_stat.v                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/data_cnt_up.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/data_sel_dec.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/dat_mm_brg.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/dat_store.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/dat_store_c.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/decoder_we.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/decoder_we_cen.v                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/delay.v                                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/delay_cen.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/delay_mul.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/delay_mul_cen.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/delay_mux.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/delay_mux_mch_odd.v                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/delay_mux_mch_odd_mcv.v                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/delay_trig.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/delay_trig_cen.v                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/eab_tdl_hc.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/eab_tdl_strat.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/eab_tdl_strat_mram.v                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/fir_definitions_pkg_fir_90.vhd                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/lc_store.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/lc_store_cen.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/lc_tdl_strat.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/lc_tdl_strat_cen.v                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/maccum.v                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/maccum_cen.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mac_tl.v                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mcv_ctrl_deci.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mcv_ctrl_nc.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu.v                                                     ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu_dly1.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu_dly2.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu_inf_1reg.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu_inf_1reg_cen.v                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu_inf_2reg.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu_inf_2reg_cen.v                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu_nd.v                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu_nd_cen.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mlu_nd_lc.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_accum_wr.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_acc_ctrl_cen_wr.v                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_acc_ctrl_wr.v                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_decoder_we_wr.v                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_del_coef_set.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_dnc_wr.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_lcdelay_wr.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_lcstore_wr.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_lrdy_wr.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_mux_2to1_cen_wr.v                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_mux_2to1_wr.v                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_ser_shift_wr.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_upc_reload_wr.v                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mr_upc_wr.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft.v                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_data.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_data_reseq.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_data_reseq_mc.v                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_lt_128.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_lt_32.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_mcv.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_mem.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_mem_coef.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_mem_hc.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_mem_mcoef.v                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_mem_reseq.v                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_mem_reseq_hc.v                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_mem_reseq_mcycle.v                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_reseq_mc.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/msft_scv.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mul_add.v                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mux_16.v                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mux_16_cen.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mux_2to1.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mux_2to1_cen.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mux_2to1_comb.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/mux_nc.v                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/para_tdl.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/par_ctrl.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/par_ld_ser_tdl_nc.v                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/par_ld_ser_tdl_wr.v                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/pll_fir.v                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/poly_mac_ctrl_dec.v                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/poly_mac_ctrl_int.v                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ram_2pt_mram_cen.v                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ram_2pt_var.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ram_2pt_var_cen.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ram_2pt_var_cen_hc.v                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ram_inf.v                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ram_lut.v                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ram_lut_cen.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rnd_dat.v                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_6_lut.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_6_lut_r.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_lut.v                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_lut_cen.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_lut_r.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_lut_r_cen.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_mset_lut.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_mset_lut_r.v                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_mset_lut_r_cen.v                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_mset_lut_r_cen_wr.v                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/rom_mset_lut_r_wr.v                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd.v                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_c.v                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_cen.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_c_cen.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_load.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_lpm.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_lpm_cen.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_lpm_reg_top_cen.v                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_reg_top.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_reg_top_cen.v                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sadd_sub.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sat_dat.v                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/scale_accum.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/scale_accum_cen.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/scale_shft_comb.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/scale_shft_comb_cen.v                                     ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/scv_ctrl.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/scv_ctrl_deci.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sc_add.v                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ser_ctrl_cen.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ser_shft.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ser_shft_cen.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ser_shift.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sgn_ext.v                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/shift_in.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/shift_out.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/slave2slave.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ssub.v                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ssub_c.v                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ssub_cen.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ssub_lpm.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/ssub_lpm_cen.v                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sym_add_ser.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sym_add_ser_cen.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/sym_sub_ser_cen.v                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/tdl_da_lc.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/trig_buf.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/trig_buf_l.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/trig_buf_r.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/tsadd.v                                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/tsadd_c.v                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/tsadd_cen.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/tsadd_c_cen.v                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/tsadd_lpm.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/tsadd_lpm_cen.v                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/tsadd_lpm_reg_top_cen.v                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/tsadd_reg_top_cen.v                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/u2ssub.v                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/u2ssub_cen.v                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/uadd.v                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/uadd_cen.v                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; fir_compiler-library/wr_en_gen.v                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; lf.v                                                                           ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; lf_bb.v                                                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; lf.bsf                                                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; lf_ast.vhd                                                                     ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; lf_constraints.tcl                                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; lf_mlab.m                                                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; lf_model.m                                                                     ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; lf.vec                                                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; tb_lf.vhd                                                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; lf_msim.tcl                                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; lf_input.txt                                                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; lf_coef_int.txt                                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; lf_param.txt                                                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; lf_silent_param.txt                                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; lf.qip                                                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; lf.html                                                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; DynamicFocus.bsf                                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; DynamicFocus_inst.v                                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; DynamicFocus_bb.v                                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; DynamicFocus.inc                                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; DynamicFocus.cmp                                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; DynamicDelay_Start.bsf                                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; DynamicDelay_Start_inst.v                                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; DynamicDelay_Start_bb.v                                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; DynamicDelay_Start.inc                                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; DynamicDelay_Start.cmp                                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; ImaDRAM.bsf                                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; ImaDRAM_inst.v                                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; ImaDRAM_bb.v                                                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; ImaDRAM.inc                                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; ImaDRAM.cmp                                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; LOG_Table.bsf                                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; LOG_Table_inst.v                                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; LOG_Table_bb.v                                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; LOG_Table.inc                                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; LOG_Table.cmp                                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; Test.bsf                                                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; Test_inst.v                                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; Test_bb.v                                                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; Test.inc                                                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; Test.cmp                                                                       ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; BC.bsf                                                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; BC_inst.v                                                                      ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; BC_bb.v                                                                        ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; BC.inc                                                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; BC.cmp                                                                         ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; IMG_BUFFER.bsf                                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; IMG_BUFFER_inst.v                                                              ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; IMG_BUFFER_bb.v                                                                ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; IMG_BUFFER.inc                                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; IMG_BUFFER.cmp                                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; Test_Line.bsf                                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; Test_Line_inst.v                                                               ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; Test_Line_bb.v                                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; Test_Line.inc                                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; Test_Line.cmp                                                                  ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; TGC_ROM.bsf                                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; TGC_ROM_inst.v                                                                 ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; TGC_ROM_bb.v                                                                   ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; TGC_ROM.inc                                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; TGC_ROM.cmp                                                                    ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; IMG_TRI_BUFFER.bsf                                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; IMG_TRI_BUFFER_inst.v                                                          ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; IMG_TRI_BUFFER_bb.v                                                            ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; IMG_TRI_BUFFER.inc                                                             ; --                 ; --          ; --                     ;
+; MISC_FILE                           ; IMG_TRI_BUFFER.cmp                                                             ; --                 ; --          ; --                     ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                                                           ; --                 ; --          ; --                     ;
+; OPTIMIZE_POWER_DURING_FITTING       ; Extra effort                                                                   ; Normal compilation ; --          ; --                     ;
+; PARTITION_COLOR                     ; 52377                                                                          ; --                 ; --          ; Transmit:Transmit_Inst ;
+; PARTITION_COLOR                     ; 16764057                                                                       ; --                 ; --          ; Top                    ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                                                          ; --                 ; --          ; Transmit:Transmit_Inst ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT                                                                      ; --                 ; --          ; Top                    ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                                                         ; --                 ; --          ; Transmit:Transmit_Inst ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                                                         ; --                 ; --          ; Top                    ;
+; SEARCH_PATH                         ; .                                                                              ; --                 ; --          ; --                     ;
+; SEARCH_PATH                         ; fir_compiler-library                                                           ; --                 ; --          ; --                     ;
+; SEARCH_PATH                         ; .                                                                              ; --                 ; --          ; --                     ;
+; SEARCH_PATH                         ; fir_compiler-library                                                           ; --                 ; --          ; --                     ;
+; TIMEQUEST_MULTICORNER_ANALYSIS      ; Off                                                                            ; On                 ; --          ; --                     ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS  ; Off                                                                            ; --                 ; --          ; eda_blast_fpga         ;
+; USE_SIGNALTAP_FILE                  ; Dynamic_Focus-pace.stp                                                         ; --                 ; --          ; --                     ;
++-------------------------------------+--------------------------------------------------------------------------------+--------------------+-------------+------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:42     ; 1.0                     ; 583 MB              ; 00:00:39                           ;
+; Partition Merge           ; 00:00:05     ; 1.0                     ; 409 MB              ; 00:00:04                           ;
+; Fitter                    ; 00:01:57     ; 1.4                     ; 833 MB              ; 00:02:41                           ;
+; Assembler                 ; 00:00:08     ; 1.0                     ; 516 MB              ; 00:00:07                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 494 MB              ; 00:00:04                           ;
+; Analysis & Synthesis      ; 00:00:37     ; 1.0                     ; 618 MB              ; 00:00:35                           ;
+; Partition Merge           ; 00:00:07     ; 1.0                     ; 402 MB              ; 00:00:05                           ;
+; Fitter                    ; 00:02:29     ; 1.4                     ; 832 MB              ; 00:03:16                           ;
+; Assembler                 ; 00:00:08     ; 1.0                     ; 516 MB              ; 00:00:08                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 504 MB              ; 00:00:04                           ;
+; Total                     ; 00:06:21     ; --                      ; --                  ; 00:07:43                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++---------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                             ;
++---------------------------+------------------+----------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
++---------------------------+------------------+----------------+------------+----------------+
+; Analysis & Synthesis      ; wong-MacBookPro  ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Partition Merge           ; wong-MacBookPro  ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Fitter                    ; wong-MacBookPro  ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Assembler                 ; wong-MacBookPro  ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; TimeQuest Timing Analyzer ; wong-MacBookPro  ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Analysis & Synthesis      ; wong-MacBookPro  ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Partition Merge           ; wong-MacBookPro  ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Fitter                    ; wong-MacBookPro  ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Assembler                 ; wong-MacBookPro  ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; TimeQuest Timing Analyzer ; wong-MacBookPro  ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
++---------------------------+------------------+----------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off ArrayUltrasound -c ArrayUltrasound
+quartus_cdb --read_settings_files=off --write_settings_files=off ArrayUltrasound -c ArrayUltrasound --merge=on
+quartus_fit --read_settings_files=off --write_settings_files=off ArrayUltrasound -c ArrayUltrasound
+quartus_asm --read_settings_files=off --write_settings_files=off ArrayUltrasound -c ArrayUltrasound
+quartus_sta ArrayUltrasound -c ArrayUltrasound
+quartus_map --read_settings_files=on --write_settings_files=off ArrayUltrasound -c ArrayUltrasound
+quartus_cdb --read_settings_files=off --write_settings_files=off ArrayUltrasound -c ArrayUltrasound --merge=on
+quartus_fit --read_settings_files=off --write_settings_files=off ArrayUltrasound -c ArrayUltrasound
+quartus_asm --read_settings_files=off --write_settings_files=off ArrayUltrasound -c ArrayUltrasound
+quartus_sta ArrayUltrasound -c ArrayUltrasound
+
+
+

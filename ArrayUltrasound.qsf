@@ -1,0 +1,237 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.0 Build 132 02/25/2009 SJ Full Version
+# Date created = 11:52:44  August 14, 2014
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		ArrayUltrasound_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C40F484C8
+set_global_assignment -name TOP_LEVEL_ENTITY ArrayUltrasound
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:52:44  AUGUST 14, 2014"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name CYCLONE_OPTIMIZATION_TECHNIQUE SPEED
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 484
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS OFF
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name CYCLONEIII_CONFIGURATION_DEVICE EPCS16
+set_global_assignment -name FORCE_CONFIGURATION_VCCIO ON
+set_global_assignment -name ENABLE_SIGNALTAP OFF
+set_global_assignment -name USE_SIGNALTAP_FILE "Dynamic_Focus-pace.stp"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_instance_assignment -name IO_STANDARD LVDS -to OUTA
+set_instance_assignment -name IO_STANDARD LVDS -to OUTB
+set_instance_assignment -name IO_STANDARD LVDS -to OUTC
+set_instance_assignment -name IO_STANDARD LVDS -to OUTD
+set_instance_assignment -name IO_STANDARD LVDS -to OUTE
+set_instance_assignment -name IO_STANDARD LVDS -to OUTF
+set_instance_assignment -name IO_STANDARD LVDS -to OUTG
+set_instance_assignment -name IO_STANDARD LVDS -to OUTH
+set_instance_assignment -name IO_STANDARD LVDS -to FCO
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to PWDN
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to STBY
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to SPI_CLK
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to SPI_CS
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to SPI_Data
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT -section_id Top
+set_global_assignment -name PHYSICAL_SYNTHESIS_EFFORT NORMAL
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to E_P
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to E_N
+set_instance_assignment -name FAST_OUTPUT_ENABLE_REGISTER ON -to E_N
+set_instance_assignment -name FAST_OUTPUT_ENABLE_REGISTER ON -to E_P
+set_global_assignment -name OPTIMIZE_HOLD_TIMING "ALL PATHS"
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_global_assignment -name CYCLONEII_OPTIMIZATION_TECHNIQUE AREA
+set_location_assignment PIN_H22 -to ADCLK
+set_location_assignment PIN_D20 -to AX[3]
+set_location_assignment PIN_C20 -to AX[0]
+set_location_assignment PIN_H17 -to AY[2]
+set_location_assignment PIN_G15 -to AX[2]
+set_location_assignment PIN_H15 -to AY[1]
+set_location_assignment PIN_H14 -to AY[0]
+set_location_assignment PIN_G14 -to AX[1]
+set_location_assignment PIN_K19 -to E_N[15]
+set_location_assignment PIN_K21 -to E_N[14]
+set_location_assignment PIN_J18 -to E_N[13]
+set_location_assignment PIN_H18 -to E_N[12]
+set_location_assignment PIN_G17 -to E_N[11]
+set_location_assignment PIN_F19 -to E_N[10]
+set_location_assignment PIN_F16 -to E_N[9]
+set_location_assignment PIN_D17 -to E_N[8]
+set_location_assignment PIN_Y8 -to E_N[7]
+set_location_assignment PIN_V11 -to E_N[6]
+set_location_assignment PIN_U11 -to E_N[5]
+set_location_assignment PIN_U13 -to E_N[4]
+set_location_assignment PIN_T13 -to E_N[3]
+set_location_assignment PIN_AB15 -to E_N[2]
+set_location_assignment PIN_AB16 -to E_N[1]
+set_location_assignment PIN_Y17 -to E_N[0]
+set_location_assignment PIN_T14 -to E_P[0]
+set_location_assignment PIN_AA16 -to E_P[1]
+set_location_assignment PIN_W15 -to E_P[2]
+set_location_assignment PIN_U14 -to E_P[3]
+set_location_assignment PIN_W13 -to E_P[4]
+set_location_assignment PIN_U12 -to E_P[5]
+set_location_assignment PIN_Y10 -to E_P[6]
+set_location_assignment PIN_U10 -to E_P[7]
+set_location_assignment PIN_F17 -to E_P[8]
+set_location_assignment PIN_C19 -to E_P[9]
+set_location_assignment PIN_D19 -to E_P[10]
+set_location_assignment PIN_G16 -to E_P[11]
+set_location_assignment PIN_G18 -to E_P[12]
+set_location_assignment PIN_H19 -to E_P[13]
+set_location_assignment PIN_K18 -to E_P[14]
+set_location_assignment PIN_K17 -to E_P[15]
+set_location_assignment PIN_T21 -to FCO
+set_location_assignment PIN_T22 -to "FCO(n)"
+set_location_assignment PIN_AA21 -to OUTA
+set_location_assignment PIN_AA22 -to "OUTA(n)"
+set_location_assignment PIN_Y21 -to OUTB
+set_location_assignment PIN_Y22 -to "OUTB(n)"
+set_location_assignment PIN_W21 -to OUTC
+set_location_assignment PIN_W22 -to "OUTC(n)"
+set_location_assignment PIN_V21 -to OUTD
+set_location_assignment PIN_V22 -to "OUTD(n)"
+set_location_assignment PIN_R21 -to OUTE
+set_location_assignment PIN_R22 -to "OUTE(n)"
+set_location_assignment PIN_P21 -to OUTF
+set_location_assignment PIN_P22 -to "OUTF(n)"
+set_location_assignment PIN_N21 -to OUTG
+set_location_assignment PIN_N22 -to "OUTG(n)"
+set_location_assignment PIN_M21 -to OUTH
+set_location_assignment PIN_M22 -to "OUTH(n)"
+set_location_assignment PIN_AB20 -to PWDN
+set_location_assignment PIN_AA20 -to STBY
+set_location_assignment PIN_AA19 -to SPI_CLK
+set_location_assignment PIN_AA18 -to SPI_CS
+set_location_assignment PIN_AB19 -to SPI_Data
+set_location_assignment PIN_E15 -to HV_SW_LE
+set_location_assignment PIN_C15 -to HV_SW_CLR
+set_location_assignment PIN_E16 -to HV_SW_CLK
+set_location_assignment PIN_C17 -to HV_SW_DOUT
+set_location_assignment PIN_T15 -to MT_CS
+set_location_assignment PIN_G13 -to MT_Strobe
+set_location_assignment PIN_H16 -to MT_Data
+set_location_assignment PIN_AA17 -to sclk
+set_location_assignment PIN_AB17 -to sdin
+set_location_assignment PIN_AB18 -to sync
+set_location_assignment PIN_A12 -to sysclk
+set_location_assignment PIN_J2 -to HV_EN
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id "Transmit:Transmit_Inst"
+set_global_assignment -name PARTITION_COLOR 52377 -section_id "Transmit:Transmit_Inst"
+set_global_assignment -name VERILOG_FILE butter_unit.v
+set_global_assignment -name VERILOG_FILE ArrayUltrasound.v
+set_global_assignment -name VERILOG_FILE Transmit.v
+set_global_assignment -name QIP_FILE Transmit_Delay_ROM.qip
+set_global_assignment -name MIF_FILE Transmit_Delay.mif
+set_global_assignment -name VERILOG_FILE EmitOneCH.v
+set_global_assignment -name MIF_FILE HV_SW.mif
+set_global_assignment -name QIP_FILE HW_SW.qip
+set_global_assignment -name QIP_FILE PLL.qip
+set_global_assignment -name MIF_FILE R_SEQ.mif
+set_global_assignment -name QIP_FILE R_SEQ.qip
+set_global_assignment -name QIP_FILE LVDS_AD.qip
+set_global_assignment -name QIP_FILE DPRAM.qip
+set_global_assignment -name VERILOG_FILE Receive.v
+set_global_assignment -name MIF_FILE CoarseDelay.mif
+set_global_assignment -name QIP_FILE CoarseDelay.qip
+set_global_assignment -name QIP_FILE MatchFilter.qip
+set_global_assignment -name QIP_FILE ABS.qip
+set_global_assignment -name QIP_FILE LF.qip
+set_global_assignment -name MIF_FILE DynamicFocus.mif
+set_global_assignment -name QIP_FILE DynamicFocus.qip
+set_global_assignment -name VERILOG_FILE AD9273_SPI_Config.v
+set_global_assignment -name VERILOG_FILE SPI_AD.v
+set_global_assignment -name SIGNALTAP_FILE AD_SPI.stp
+set_global_assignment -name SIGNALTAP_FILE AD_LVDS.stp
+set_global_assignment -name SIGNALTAP_FILE HV_SW.stp
+set_global_assignment -name SIGNALTAP_FILE EMIT.stp
+set_global_assignment -name SIGNALTAP_FILE MT8816.stp
+set_global_assignment -name SIGNALTAP_FILE Dynamic_Focus.stp
+set_global_assignment -name MIF_FILE DynamicDelay_Start.mif
+set_global_assignment -name QIP_FILE DynamicDelay_Start.qip
+set_global_assignment -name MIF_FILE "DynamicFocus-bak.mif"
+set_global_assignment -name SIGNALTAP_FILE "Dynamic_Focus-simple.stp"
+set_global_assignment -name SIGNALTAP_FILE EMIT_SYNC_Test.stp
+set_global_assignment -name SIGNALTAP_FILE MF_Filter.stp
+set_global_assignment -name QIP_FILE ImaDRAM.qip
+set_global_assignment -name VERILOG_FILE LCD_Driver.v
+set_global_assignment -name VERILOG_FILE DSC.v
+set_global_assignment -name SIGNALTAP_FILE "Fix_Focus-simple.stp"
+set_global_assignment -name QIP_FILE LOG_Table.qip
+set_global_assignment -name MIF_FILE LOG_Table.mif
+set_global_assignment -name MIF_FILE test.mif
+set_global_assignment -name QIP_FILE Test.qip
+set_global_assignment -name MIF_FILE BC.mif
+set_global_assignment -name QIP_FILE BC.qip
+set_global_assignment -name MIF_FILE "LOG_Table-log.mif"
+set_global_assignment -name SIGNALTAP_FILE dsc.stp
+set_global_assignment -name SIGNALTAP_FILE wr_rd_dram.stp
+set_global_assignment -name SIGNALTAP_FILE matchFilter.stp
+set_global_assignment -name SIGNALTAP_FILE "EMIT-test.stp"
+set_global_assignment -name MIF_FILE "R_SEQ-bak.mif"
+set_global_assignment -name SIGNALTAP_FILE "Dynamic_Focus-pace.stp"
+set_global_assignment -name MIF_FILE Apod.mif
+set_global_assignment -name SIGNALTAP_FILE "Dynamic_Focus-sample.stp"
+set_global_assignment -name MIF_FILE BaseNoise.mif
+set_location_assignment PIN_J1 -to CC3200_SPI_CLK
+set_location_assignment PIN_F1 -to CC3200_SPI_CS
+set_location_assignment PIN_H1 -to CC3200_SPI_DIN
+set_location_assignment PIN_H2 -to CC3200_SPI_DOUT
+set_global_assignment -name SIGNALTAP_FILE CC3200.stp
+set_location_assignment PIN_F2 -to Envelop
+set_global_assignment -name QIP_FILE IMG_BUFFER.qip
+set_global_assignment -name QIP_FILE Test_Line.qip
+set_global_assignment -name MIF_FILE Test_Line.mif
+set_global_assignment -name QIP_FILE TGC_ROM.qip
+set_global_assignment -name MIF_FILE tgc.mif
+set_global_assignment -name QIP_FILE IMG_TRI_BUFFER.qip
+set_global_assignment -name SIGNALTAP_FILE "CC3200-256lines.stp"
+set_global_assignment -name TIMEQUEST_DO_CCPP_REMOVAL ON
+set_global_assignment -name OPTIMIZE_POWER_DURING_FITTING "EXTRA EFFORT"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id "Transmit:Transmit_Inst"
+
+
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY trans_f5bc4aca8ade15b5bdc5aedde831c7f1 -to "Transmit:Transmit_Inst" -section_id "Transmit:Transmit_Inst"

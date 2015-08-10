@@ -1,0 +1,53 @@
+Wed Aug 27 12:51:35 CST 2014  [debug] AvalonLogSystem initialized using logfile 'velocity.log'
+Wed Aug 27 12:51:35 CST 2014   [info] ************************************************************** 
+Wed Aug 27 12:51:35 CST 2014   [info] Starting Jakarta Velocity v1.4
+Wed Aug 27 12:51:35 CST 2014   [info] RuntimeInstance initializing.
+Wed Aug 27 12:51:35 CST 2014   [info] Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+Wed Aug 27 12:51:35 CST 2014   [info] Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Wed Aug 27 12:51:35 CST 2014   [info] Using logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Wed Aug 27 12:51:35 CST 2014   [info] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+Wed Aug 27 12:51:35 CST 2014   [info] Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Wed Aug 27 12:51:35 CST 2014   [info] FileResourceLoader : initialization starting.
+Wed Aug 27 12:51:35 CST 2014   [info] FileResourceLoader : adding path 'c:\altera\90\ip\altera\fir_compiler\lib\ip_toolbench\..\template'
+Wed Aug 27 12:51:35 CST 2014   [info] FileResourceLoader : adding path '.'
+Wed Aug 27 12:51:35 CST 2014   [info] FileResourceLoader : initialization complete.
+Wed Aug 27 12:51:35 CST 2014   [info] Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.JarResourceLoader
+Wed Aug 27 12:51:35 CST 2014   [info] JarResourceLoader : initialization starting.
+Wed Aug 27 12:51:35 CST 2014   [info] JarResourceLoader # of paths : 0
+Wed Aug 27 12:51:35 CST 2014   [info] JarResourceLoader : initialization complete.
+Wed Aug 27 12:51:35 CST 2014   [info] Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Wed Aug 27 12:51:35 CST 2014   [info] ClasspathResourceLoader : initialization starting.
+Wed Aug 27 12:51:35 CST 2014   [info] ClasspathResourceLoader : initialization complete.
+Wed Aug 27 12:51:35 CST 2014   [info] ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+Wed Aug 27 12:51:35 CST 2014   [info] Default ResourceManager initialization complete.
+Wed Aug 27 12:51:35 CST 2014   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+Wed Aug 27 12:51:35 CST 2014   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Wed Aug 27 12:51:35 CST 2014   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Wed Aug 27 12:51:35 CST 2014   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Wed Aug 27 12:51:35 CST 2014   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Wed Aug 27 12:51:35 CST 2014   [info] Created: 20 parsers.
+Wed Aug 27 12:51:35 CST 2014   [info] Velocimacro : initialization starting.
+Wed Aug 27 12:51:35 CST 2014   [info] Velocimacro : adding VMs from VM library template : VM_global_library.vm
+Wed Aug 27 12:51:35 CST 2014  [error] ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+Wed Aug 27 12:51:35 CST 2014   [info] Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+Wed Aug 27 12:51:35 CST 2014   [info] Velocimacro :  VM library template macro registration complete.
+Wed Aug 27 12:51:35 CST 2014   [info] Velocimacro : allowInline = true : VMs can be defined inline in templates
+Wed Aug 27 12:51:35 CST 2014   [info] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+Wed Aug 27 12:51:35 CST 2014   [info] Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+Wed Aug 27 12:51:35 CST 2014   [info] Velocimacro : messages on  : VM system will output logging messages
+Wed Aug 27 12:51:35 CST 2014   [info] Velocimacro : autoload off  : VM system will not automatically reload global library macros
+Wed Aug 27 12:51:35 CST 2014   [info] Velocimacro : initialization complete.
+Wed Aug 27 12:51:35 CST 2014   [info] Velocity successfully started.
+Wed Aug 27 12:51:35 CST 2014   [info] ResourceManager : found tb_avalon_st.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Wed Aug 27 12:51:35 CST 2014   [info] ResourceManager : found alt_license_vhdl.txt with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Wed Aug 27 12:51:35 CST 2014   [info] ResourceManager : found auk_dspip_fir_top_avalon_streaming.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Wed Aug 27 12:51:35 CST 2014   [info] ResourceManager : found alt_license_vhdl.txt with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Wed Aug 27 12:51:35 CST 2014   [info] ResourceManager : found generic_msim_script.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Wed Aug 27 12:51:35 CST 2014   [info] ResourceManager : found alt_license_tcl.txt with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Wed Aug 27 12:51:35 CST 2014   [info] ResourceManager : found constant_part_of_tcl_script.tcl with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Wed Aug 27 12:51:35 CST 2014   [info] ResourceManager : found fir_input.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Wed Aug 27 12:51:35 CST 2014   [info] ResourceManager : found matlab_model.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Wed Aug 27 12:51:35 CST 2014   [info] ResourceManager : found alt_license_matlab.txt with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Wed Aug 27 12:51:35 CST 2014   [info] ResourceManager : found matlab_model_base.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Wed Aug 27 12:51:35 CST 2014   [info] ResourceManager : found fir_nativelink_tcl.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Wed Aug 27 12:51:35 CST 2014   [info] ResourceManager : found alt_license_tcl.txt with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader

@@ -1,0 +1,193 @@
+Assembler report for ArrayUltrasound
+Thu Jul 30 14:09:29 2015
+Quartus II 32-bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Assembler Summary
+  3. Assembler Settings
+  4. Parallel Compilation
+  5. Assembler Encrypted IP Cores Summary
+  6. Assembler Generated Files
+  7. Assembler Device Options: ArrayUltrasound.sof
+  8. Assembler Device Options: ArrayUltrasound.pof
+  9. Assembler Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; Assembler Summary                                             ;
++-----------------------+---------------------------------------+
+; Assembler Status      ; Successful - Thu Jul 30 14:09:29 2015 ;
+; Revision Name         ; ArrayUltrasound                       ;
+; Top-level Entity Name ; ArrayUltrasound                       ;
+; Family                ; Cyclone III                           ;
+; Device                ; EP3C40F484C8                          ;
++-----------------------+---------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------+
+; Assembler Settings                                                                                     ;
++-----------------------------------------------------------------------------+----------+---------------+
+; Option                                                                      ; Setting  ; Default Value ;
++-----------------------------------------------------------------------------+----------+---------------+
+; Use configuration device                                                    ; On       ; Off           ;
+; Configuration device                                                        ; Epcs16   ; Auto          ;
+; Use smart compilation                                                       ; Off      ; Off           ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation  ; On       ; On            ;
+; Enable compact report table                                                 ; Off      ; Off           ;
+; Generate compressed bitstreams                                              ; On       ; On            ;
+; Compression mode                                                            ; Off      ; Off           ;
+; Clock source for configuration device                                       ; Internal ; Internal      ;
+; Clock frequency of the configuration device                                 ; 10 MHZ   ; 10 MHz        ;
+; Divide clock frequency by                                                   ; 1        ; 1             ;
+; Auto user code                                                              ; On       ; On            ;
+; Configuration device auto user code                                         ; Off      ; Off           ;
+; Generate Tabular Text File (.ttf) For Target Device                         ; Off      ; Off           ;
+; Generate Raw Binary File (.rbf) For Target Device                           ; Off      ; Off           ;
+; Generate Hexadecimal (Intel-Format) Output File (.hexout) for Target Device ; Off      ; Off           ;
+; Hexadecimal Output File start address                                       ; 0        ; 0             ;
+; Hexadecimal Output File count direction                                     ; Up       ; Up            ;
+; Release clears before tri-states                                            ; Off      ; Off           ;
+; Auto-restart configuration after error                                      ; On       ; On            ;
+; Enable OCT_DONE                                                             ; On       ; On            ;
+; Generate Serial Vector Format File (.svf) for Target Device                 ; Off      ; Off           ;
+; Generate a JEDEC STAPL Format File (.jam) for Target Device                 ; Off      ; Off           ;
+; Generate a compressed Jam STAPL Byte Code 2.0 File (.jbc) for Target Device ; Off      ; Off           ;
+; Generate a compressed Jam STAPL Byte Code 2.0 File (.jbc) for Target Device ; On       ; On            ;
++-----------------------------------------------------------------------------+----------+---------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 2           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ; < 0.1%      ;
+;     Processors 3-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++--------------------------------------------------+
+; Assembler Encrypted IP Cores Summary             ;
++--------+--------------------------+--------------+
+; Vendor ; IP Core Name             ; License Type ;
++--------+--------------------------+--------------+
+; Altera ; FIR_Compiler (6AF7 0012) ; Licensed     ;
+; Altera ; Signal Tap (6AF7 BCE1)   ; Licensed     ;
+; Altera ; Signal Tap (6AF7 BCEC)   ; Licensed     ;
++--------+--------------------------+--------------+
+
+
++---------------------------+
+; Assembler Generated Files ;
++---------------------------+
+; File Name                 ;
++---------------------------+
+; ArrayUltrasound.sof       ;
+; ArrayUltrasound.pof       ;
++---------------------------+
+
+
++-----------------------------------------------+
+; Assembler Device Options: ArrayUltrasound.sof ;
++----------------+------------------------------+
+; Option         ; Setting                      ;
++----------------+------------------------------+
+; Device         ; EP3C40F484C8                 ;
+; JTAG usercode  ; 0x015A04AA                   ;
+; Checksum       ; 0x015A04AA                   ;
++----------------+------------------------------+
+
+
++-----------------------------------------------+
+; Assembler Device Options: ArrayUltrasound.pof ;
++--------------------+--------------------------+
+; Option             ; Setting                  ;
++--------------------+--------------------------+
+; Device             ; EPCS16                   ;
+; JTAG usercode      ; 0x00000000               ;
+; Checksum           ; 0x1976B313               ;
+; Compression Ratio  ; 2                        ;
++--------------------+--------------------------+
+
+
++--------------------+
+; Assembler Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit Assembler
+    Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+    Info: Processing started: Thu Jul 30 14:09:21 2015
+Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off ArrayUltrasound -c ArrayUltrasound
+Warning (335093): TimeQuest Timing Analyzer is analyzing 309 combinational loops as latches.
+Info (332164): Evaluating HDL-embedded SDC commands
+    Info (332165): Entity sld_jtag_hub
+        Info (332166): create_clock -name altera_reserved_tck [get_ports {altera_reserved_tck}] -period 10MHz   
+        Info (332166): set_clock_groups -asynchronous -group {altera_reserved_tck}
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'ArrayUltrasound.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Warning (332060): Node: FCO was determined to be a clock but was found without an associated clock assignment.
+Warning (332060): Node: sysclk was determined to be a clock but was found without an associated clock assignment.
+Warning (332060): Node: Pr_Gate was determined to be a clock but was found without an associated clock assignment.
+Warning (332060): Node: End_Gate was determined to be a clock but was found without an associated clock assignment.
+Warning (332060): Node: RX_Gate was determined to be a clock but was found without an associated clock assignment.
+Warning (332060): Node: CC3200_SPI_CS was determined to be a clock but was found without an associated clock assignment.
+Warning (332060): Node: RX_Gate_Reg was determined to be a clock but was found without an associated clock assignment.
+Warning (332060): Node: Envelop was determined to be a clock but was found without an associated clock assignment.
+Warning (332060): Node: CC3200_SPI_CLK was determined to be a clock but was found without an associated clock assignment.
+Warning (332060): Node: AD9273_SPI_Config:AD9273_SPI_Config_Inst|SPI_New_Word was determined to be a clock but was found without an associated clock assignment.
+Warning (332060): Node: Transmit:Transmit_Inst|Pr_Gate_Reg1 was determined to be a clock but was found without an associated clock assignment.
+Warning (332056): PLL cross checking found inconsistent PLL clock settings:
+    Warning (332056): Node: PLL_inst|altpll_component|auto_generated|pll1|clk[0] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
+    Warning (332056): Node: PLL_inst|altpll_component|auto_generated|pll1|clk[1] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
+    Warning (332056): Node: LVDS_AD_inst_A|altlvds_rx_component|auto_generated|lvds_rx_pll|clk[0] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
+    Warning (332056): Node: LVDS_AD_inst_A|altlvds_rx_component|auto_generated|lvds_rx_pll|clk[1] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
+Critical Warning (332168): The following clock transfers have no clock uncertainty assignment. For more accurate results, apply clock uncertainty assignments or use the derive_clock_uncertainty command.
+    Critical Warning (332169): From altera_reserved_tck (Rise) to altera_reserved_tck (Rise) (setup and hold)
+    Critical Warning (332169): From altera_reserved_tck (Rise) to altera_reserved_tck (Fall) (setup and hold)
+Info (332129): Detected timing requirements -- optimizing circuit to achieve only the specified requirements
+Info (332111): Found 1 clocks
+    Info (332111):   Period   Clock Name
+    Info (332111): ======== ============
+    Info (332111):  100.000 altera_reserved_tck
+Info (223000): Starting Vectorless Power Activity Estimation
+Info (223001): Completed Vectorless Power Activity Estimation
+Info (115031): Writing out detailed assembly data for power analysis
+Info (115030): Assembler is generating device programming files
+Info: Quartus II 32-bit Assembler was successful. 0 errors, 21 warnings
+    Info: Peak virtual memory: 516 megabytes
+    Info: Processing ended: Thu Jul 30 14:09:29 2015
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:08
+
+

@@ -1,0 +1,171 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP3C40 (0x020F40DD)" sof_file="ArrayUltrasound.sof" top_level_entity="ArrayUltrasound">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <position_info>
+      <single attribute="active tab" value="0"/>
+      <single attribute="data horizontal scroll position" value="0"/>
+      <single attribute="data vertical scroll position" value="2"/>
+      <single attribute="setup horizontal scroll position" value="0"/>
+      <single attribute="setup vertical scroll position" value="2"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom level numerator" value="1"/>
+      <single attribute="zoom offset denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="130817"/>
+      <multi attribute="timebars" size="2" value="49,82"/>
+    </position_info>
+    <signal_set global_temp="1" name="signal_set: 2015/04/08 12:54:06  #0">
+      <clock name="Transmit:Transmit_Inst|Transmit_CLK" polarity="posedge" tap_mode="classic"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="256" trigger_in_enable="no" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="Transmit:Transmit_Inst|P[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|RX_Gate" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|Sample_Gate" tap_mode="classic" type="combinatorial"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="Transmit:Transmit_Inst|P[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|RX_Gate" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|Sample_Gate" tap_mode="classic" type="combinatorial"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="Transmit:Transmit_Inst|P[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|RX_Gate" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|Sample_Gate" tap_mode="classic" type="combinatorial"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <data_view>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|RX_Gate"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[0]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[1]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[2]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[3]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[4]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[5]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[6]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[7]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[8]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[9]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[10]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[11]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[12]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[13]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[14]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[15]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|Sample_Gate"/>
+        </data_view>
+        <setup_view>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|RX_Gate"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[0]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[1]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[2]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[3]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[4]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[5]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[6]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[7]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[8]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[9]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[10]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[11]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[12]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[13]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[14]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[15]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|Sample_Gate"/>
+        </setup_view>
+      </presentation>
+      <trigger CRC="D02B0066" attribute_mem_mode="false" gap_record="true" global_temp="1" name="trigger: 2015/04/08 13:02:05  #0" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_in="dont_care" trigger_out="active high" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no" trigger_in="dont_care" trigger_out="active high"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">'Transmit:Transmit_Inst|Sample_Gate' == rising edge
+            <power_up enabled="yes">
+            </power_up>
+            <op_node/>
+          </level>
+        </events>
+        <storage_qualifier_events>
+          <transitional>000000000000000000
+            <pwr_up_transitional>000000000000000000
+            </pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+        <log>
+          <data global_temp="1" name="log: 2015/04/08 13:09:44  #0" power_up_mode="false" sample_depth="256" trigger_position="32">111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110110111111111111010110111111111111010110111111111111010110111111111111010110111111111111010110111111111111010110111111111111010110111111111111010110111111111111010110111111111111010110111111111111010110111111111111010110011111111110010110011111111110010110011111111110010110011111111110010110011111111110010110011111111110010110011111111110010110011111111110010110011111111110010110011111111110010110001111111100010110001111111100010110001111111100010110001111111100010110001111111100010110001111111100011110001111111100011110001111111100011110000111111000011110000111111000011110000111111000010110000111111000010110000111111000010110000111111000010110000011110000010110000011110000010110000011110000010110000011110000010110000011110000010010000011100000010010000011100000010010000001000000010010000000000000010010000000000000010010000000000000010010000000000000010010000000000000010010000000000000010010000000000000010010000000000000010010000000000000010010000000000000010010000000000000010010000000000000010010000000000000010010000000000000010010000000000000010010000000000000010010000000000000010010000000000000010010000000000000010010000000000000010011000000000000110011000000000000110011000000000000110011000000000000110011000000000000110011000000000000110011000000000000110011000000000000110011000000000000110011000000000000110011000000000000110011000000000000110011100000000001110011100000000001110011100000000001110011100000000001110011100000000001110011100000000001110011100000000001110011100000000001110011100000000001110011100000000001110011110000000011110011110000000011110011110000000011110011110000000011110011110000000011110011110000000011110011110000000011110011110000000011110011111000000111110011111000000111110011111000000111110011111000000111110011111000000111110011111000000111110011111100001111110011111100001111110011111100001111110011111100001111110011111100001111110111111100011111110111111100011111110111111110111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111110111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100111111111111111100</data>
+          <extradata>11111111111111111111111111111111T1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</extradata>
+        </log>
+      </trigger>
+    </signal_set>
+  </instance>
+  <mnemonics/>
+  <static_plugin_mnemonics/>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="lock mode" value="36110"/>
+    <multi attribute="window position" size="9" value="1600,799,398,87,0,50,124,0,0"/>
+  </global_info>
+</session>

@@ -1,0 +1,1368 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP3C25 (0x020F30DD)" sof_file="ArrayUltrasound.sof" top_level_entity="ArrayUltrasound">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <position_info>
+      <single attribute="active tab" value="0"/>
+      <single attribute="data horizontal scroll position" value="0"/>
+      <single attribute="data vertical scroll position" value="11"/>
+      <single attribute="setup horizontal scroll position" value="0"/>
+      <single attribute="setup vertical scroll position" value="2"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom level numerator" value="1"/>
+      <single attribute="zoom offset denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="131008"/>
+      <multi attribute="timebars" size="1" value="32"/>
+    </position_info>
+    <signal_set global_temp="1" name="signal_set: 2014/08/26 20:44:31  #0">
+      <clock name="sysclk" polarity="posedge" tap_mode="classic"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="64" trigger_in_enable="no" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="DSC:DSC_Inst|Column[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC_Counter[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Counter[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Counter[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[7]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[7]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[7]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[7]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[7]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[7]" tap_mode="classic" type="register"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Inter_X[0]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[1]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[2]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[3]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[4]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[5]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[6]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[7]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[0]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[1]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[2]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[3]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[4]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[5]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[6]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[7]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[0]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[1]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[2]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[3]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[4]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[5]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[6]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[7]" tap_mode="classic" type="register"/>
+          <wire name="LCLK" tap_mode="classic" type="register"/>
+          <wire name="mult88:mult88_inst1|result[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[9]" tap_mode="classic" type="combinatorial"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="DSC:DSC_Inst|Column[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC_Counter[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Counter[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Counter[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[7]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[7]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[7]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[7]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[7]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[7]" tap_mode="classic" type="register"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Inter_X[0]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[1]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[2]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[3]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[4]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[5]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[6]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[7]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[0]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[1]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[2]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[3]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[4]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[5]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[6]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[7]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[0]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[1]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[2]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[3]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[4]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[5]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[6]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[7]" tap_mode="classic" type="register"/>
+          <wire name="LCLK" tap_mode="classic" type="register"/>
+          <wire name="mult88:mult88_inst1|result[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[9]" tap_mode="classic" type="combinatorial"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="DSC:DSC_Inst|Column[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Column[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|DSC_ANGLE[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio1[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Inter_Ratio2[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|Row[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[18]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|SRAM_Addr[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="DSC_Counter[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Counter[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Counter[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data1[7]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data2[7]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data3[7]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Data4[7]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y1[7]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[0]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[1]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[2]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[3]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[4]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[5]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[6]" tap_mode="classic" type="register"/>
+          <wire name="DSC_Y2[7]" tap_mode="classic" type="register"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|q[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="ImaDRAM:ImaDRAM_inst|rdaddress[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Inter_X[0]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[1]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[2]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[3]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[4]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[5]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[6]" tap_mode="classic" type="register"/>
+          <wire name="Inter_X[7]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[0]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[1]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[2]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[3]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[4]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[5]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[6]" tap_mode="classic" type="register"/>
+          <wire name="Inter_Y[7]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[0]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[1]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[2]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[3]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[4]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[5]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[6]" tap_mode="classic" type="register"/>
+          <wire name="LCD_Data[7]" tap_mode="classic" type="register"/>
+          <wire name="LCLK" tap_mode="classic" type="register"/>
+          <wire name="mult88:mult88_inst1|result[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst1|result[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst2|result[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[16]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[17]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="mult88:mult88_inst3|result[9]" tap_mode="classic" type="combinatorial"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <data_view>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|Row" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[0]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[1]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[2]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[3]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[4]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[5]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[6]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[7]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[8]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[9]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|Column" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[0]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[1]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[2]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[3]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[4]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[5]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[6]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[7]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[8]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[9]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|Inter_Ratio1" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio1[0]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio1[1]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio1[2]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio1[3]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio1[4]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio1[5]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio1[6]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio1[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|Inter_Ratio2" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio2[0]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio2[1]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio2[2]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio2[3]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio2[4]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio2[5]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio2[6]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio2[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|SRAM_Addr[0..7]" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[0]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[1]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[2]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[3]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[4]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[5]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[6]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|SRAM_Addr[8..18]" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[8]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[9]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[10]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[11]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[12]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[13]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[14]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[15]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[16]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[17]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[18]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|DSC_ANGLE" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[0]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[1]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[2]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[3]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[4]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[5]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[6]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[7]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[8]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[9]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[10]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[11]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[12]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[13]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[14]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[15]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle" order="lsb_to_msb" radix="signed_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[0]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[1]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[2]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[3]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[4]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[5]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[6]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[7]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[8]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[9]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[10]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[11]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[12]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[13]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[14]"/>
+          </bus>
+          <net is_signal_inverted="no" name="LCLK"/>
+          <bus is_signal_inverted="no" link="all" name="Inter_Y" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="Inter_Y[0]"/>
+            <net is_signal_inverted="no" name="Inter_Y[1]"/>
+            <net is_signal_inverted="no" name="Inter_Y[2]"/>
+            <net is_signal_inverted="no" name="Inter_Y[3]"/>
+            <net is_signal_inverted="no" name="Inter_Y[4]"/>
+            <net is_signal_inverted="no" name="Inter_Y[5]"/>
+            <net is_signal_inverted="no" name="Inter_Y[6]"/>
+            <net is_signal_inverted="no" name="Inter_Y[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC_Y1" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="DSC_Y1[0]"/>
+            <net is_signal_inverted="no" name="DSC_Y1[1]"/>
+            <net is_signal_inverted="no" name="DSC_Y1[2]"/>
+            <net is_signal_inverted="no" name="DSC_Y1[3]"/>
+            <net is_signal_inverted="no" name="DSC_Y1[4]"/>
+            <net is_signal_inverted="no" name="DSC_Y1[5]"/>
+            <net is_signal_inverted="no" name="DSC_Y1[6]"/>
+            <net is_signal_inverted="no" name="DSC_Y1[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC_Y2" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="DSC_Y2[0]"/>
+            <net is_signal_inverted="no" name="DSC_Y2[1]"/>
+            <net is_signal_inverted="no" name="DSC_Y2[2]"/>
+            <net is_signal_inverted="no" name="DSC_Y2[3]"/>
+            <net is_signal_inverted="no" name="DSC_Y2[4]"/>
+            <net is_signal_inverted="no" name="DSC_Y2[5]"/>
+            <net is_signal_inverted="no" name="DSC_Y2[6]"/>
+            <net is_signal_inverted="no" name="DSC_Y2[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="LCD_Data" order="lsb_to_msb" radix="line" state="collapse" type="register">
+            <net is_signal_inverted="no" name="LCD_Data[0]"/>
+            <net is_signal_inverted="no" name="LCD_Data[1]"/>
+            <net is_signal_inverted="no" name="LCD_Data[2]"/>
+            <net is_signal_inverted="no" name="LCD_Data[3]"/>
+            <net is_signal_inverted="no" name="LCD_Data[4]"/>
+            <net is_signal_inverted="no" name="LCD_Data[5]"/>
+            <net is_signal_inverted="no" name="LCD_Data[6]"/>
+            <net is_signal_inverted="no" name="LCD_Data[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="ImaDRAM:ImaDRAM_inst|q" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[0]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[1]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[2]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[3]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[4]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[5]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[6]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC_Data1" order="lsb_to_msb" radix="line" state="collapse" type="register">
+            <net is_signal_inverted="no" name="DSC_Data1[0]"/>
+            <net is_signal_inverted="no" name="DSC_Data1[1]"/>
+            <net is_signal_inverted="no" name="DSC_Data1[2]"/>
+            <net is_signal_inverted="no" name="DSC_Data1[3]"/>
+            <net is_signal_inverted="no" name="DSC_Data1[4]"/>
+            <net is_signal_inverted="no" name="DSC_Data1[5]"/>
+            <net is_signal_inverted="no" name="DSC_Data1[6]"/>
+            <net is_signal_inverted="no" name="DSC_Data1[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC_Data2" order="lsb_to_msb" radix="line" state="collapse" type="register">
+            <net is_signal_inverted="no" name="DSC_Data2[0]"/>
+            <net is_signal_inverted="no" name="DSC_Data2[1]"/>
+            <net is_signal_inverted="no" name="DSC_Data2[2]"/>
+            <net is_signal_inverted="no" name="DSC_Data2[3]"/>
+            <net is_signal_inverted="no" name="DSC_Data2[4]"/>
+            <net is_signal_inverted="no" name="DSC_Data2[5]"/>
+            <net is_signal_inverted="no" name="DSC_Data2[6]"/>
+            <net is_signal_inverted="no" name="DSC_Data2[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC_Data3" order="lsb_to_msb" radix="line" state="collapse" type="register">
+            <net is_signal_inverted="no" name="DSC_Data3[0]"/>
+            <net is_signal_inverted="no" name="DSC_Data3[1]"/>
+            <net is_signal_inverted="no" name="DSC_Data3[2]"/>
+            <net is_signal_inverted="no" name="DSC_Data3[3]"/>
+            <net is_signal_inverted="no" name="DSC_Data3[4]"/>
+            <net is_signal_inverted="no" name="DSC_Data3[5]"/>
+            <net is_signal_inverted="no" name="DSC_Data3[6]"/>
+            <net is_signal_inverted="no" name="DSC_Data3[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC_Data4" order="lsb_to_msb" radix="line" state="collapse" type="register">
+            <net is_signal_inverted="no" name="DSC_Data4[0]"/>
+            <net is_signal_inverted="no" name="DSC_Data4[1]"/>
+            <net is_signal_inverted="no" name="DSC_Data4[2]"/>
+            <net is_signal_inverted="no" name="DSC_Data4[3]"/>
+            <net is_signal_inverted="no" name="DSC_Data4[4]"/>
+            <net is_signal_inverted="no" name="DSC_Data4[5]"/>
+            <net is_signal_inverted="no" name="DSC_Data4[6]"/>
+            <net is_signal_inverted="no" name="DSC_Data4[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="Inter_X" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="Inter_X[0]"/>
+            <net is_signal_inverted="no" name="Inter_X[1]"/>
+            <net is_signal_inverted="no" name="Inter_X[2]"/>
+            <net is_signal_inverted="no" name="Inter_X[3]"/>
+            <net is_signal_inverted="no" name="Inter_X[4]"/>
+            <net is_signal_inverted="no" name="Inter_X[5]"/>
+            <net is_signal_inverted="no" name="Inter_X[6]"/>
+            <net is_signal_inverted="no" name="Inter_X[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="mult88:mult88_inst1|result" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[0]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[1]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[2]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[3]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[4]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[5]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[6]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[7]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[8]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[9]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[10]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[11]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[12]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[13]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[14]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[15]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[16]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[17]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="mult88:mult88_inst2|result" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[0]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[1]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[2]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[3]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[4]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[5]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[6]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[7]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[8]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[9]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[10]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[11]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[12]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[13]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[14]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[15]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[16]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[17]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="mult88:mult88_inst3|result" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[0]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[1]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[2]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[3]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[4]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[5]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[6]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[7]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[8]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[9]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[10]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[11]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[12]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[13]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[14]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[15]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[16]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[17]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC_Counter" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="DSC_Counter[0]"/>
+            <net is_signal_inverted="no" name="DSC_Counter[1]"/>
+            <net is_signal_inverted="no" name="DSC_Counter[2]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="ImaDRAM:ImaDRAM_inst|rdaddress" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[0]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[1]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[2]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[3]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[4]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[5]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[6]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[7]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[8]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[9]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[10]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[11]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[12]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[13]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[14]"/>
+          </bus>
+        </data_view>
+        <setup_view>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|Row" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[0]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[1]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[2]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[3]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[4]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[5]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[6]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[7]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[8]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Row[9]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|Column" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[0]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[1]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[2]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[3]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[4]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[5]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[6]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[7]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[8]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Column[9]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|Inter_Ratio1" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio1[0]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio1[1]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio1[2]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio1[3]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio1[4]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio1[5]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio1[6]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio1[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|Inter_Ratio2" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio2[0]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio2[1]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio2[2]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio2[3]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio2[4]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio2[5]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio2[6]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|Inter_Ratio2[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|SRAM_Addr[0..7]" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[0]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[1]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[2]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[3]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[4]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[5]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[6]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|SRAM_Addr[8..18]" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[8]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[9]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[10]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[11]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[12]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[13]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[14]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[15]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[16]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[17]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|SRAM_Addr[18]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|DSC_ANGLE" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[0]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[1]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[2]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[3]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[4]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[5]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[6]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[7]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[8]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[9]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[10]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[11]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[12]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[13]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[14]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|DSC_ANGLE[15]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle" order="lsb_to_msb" radix="signed_dec" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[0]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[1]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[2]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[3]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[4]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[5]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[6]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[7]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[8]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[9]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[10]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[11]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[12]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[13]"/>
+            <net is_signal_inverted="no" name="DSC:DSC_Inst|coordinate_cordic:coordinate_cordic_Inst|angle[14]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC_Data1" order="lsb_to_msb" radix="line" state="collapse" type="register">
+            <net is_signal_inverted="no" name="DSC_Data1[0]"/>
+            <net is_signal_inverted="no" name="DSC_Data1[1]"/>
+            <net is_signal_inverted="no" name="DSC_Data1[2]"/>
+            <net is_signal_inverted="no" name="DSC_Data1[3]"/>
+            <net is_signal_inverted="no" name="DSC_Data1[4]"/>
+            <net is_signal_inverted="no" name="DSC_Data1[5]"/>
+            <net is_signal_inverted="no" name="DSC_Data1[6]"/>
+            <net is_signal_inverted="no" name="DSC_Data1[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC_Data2" order="lsb_to_msb" radix="line" state="collapse" type="register">
+            <net is_signal_inverted="no" name="DSC_Data2[0]"/>
+            <net is_signal_inverted="no" name="DSC_Data2[1]"/>
+            <net is_signal_inverted="no" name="DSC_Data2[2]"/>
+            <net is_signal_inverted="no" name="DSC_Data2[3]"/>
+            <net is_signal_inverted="no" name="DSC_Data2[4]"/>
+            <net is_signal_inverted="no" name="DSC_Data2[5]"/>
+            <net is_signal_inverted="no" name="DSC_Data2[6]"/>
+            <net is_signal_inverted="no" name="DSC_Data2[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC_Data3" order="lsb_to_msb" radix="line" state="collapse" type="register">
+            <net is_signal_inverted="no" name="DSC_Data3[0]"/>
+            <net is_signal_inverted="no" name="DSC_Data3[1]"/>
+            <net is_signal_inverted="no" name="DSC_Data3[2]"/>
+            <net is_signal_inverted="no" name="DSC_Data3[3]"/>
+            <net is_signal_inverted="no" name="DSC_Data3[4]"/>
+            <net is_signal_inverted="no" name="DSC_Data3[5]"/>
+            <net is_signal_inverted="no" name="DSC_Data3[6]"/>
+            <net is_signal_inverted="no" name="DSC_Data3[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC_Data4" order="lsb_to_msb" radix="line" state="collapse" type="register">
+            <net is_signal_inverted="no" name="DSC_Data4[0]"/>
+            <net is_signal_inverted="no" name="DSC_Data4[1]"/>
+            <net is_signal_inverted="no" name="DSC_Data4[2]"/>
+            <net is_signal_inverted="no" name="DSC_Data4[3]"/>
+            <net is_signal_inverted="no" name="DSC_Data4[4]"/>
+            <net is_signal_inverted="no" name="DSC_Data4[5]"/>
+            <net is_signal_inverted="no" name="DSC_Data4[6]"/>
+            <net is_signal_inverted="no" name="DSC_Data4[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="Inter_X" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="Inter_X[0]"/>
+            <net is_signal_inverted="no" name="Inter_X[1]"/>
+            <net is_signal_inverted="no" name="Inter_X[2]"/>
+            <net is_signal_inverted="no" name="Inter_X[3]"/>
+            <net is_signal_inverted="no" name="Inter_X[4]"/>
+            <net is_signal_inverted="no" name="Inter_X[5]"/>
+            <net is_signal_inverted="no" name="Inter_X[6]"/>
+            <net is_signal_inverted="no" name="Inter_X[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="Inter_Y" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="Inter_Y[0]"/>
+            <net is_signal_inverted="no" name="Inter_Y[1]"/>
+            <net is_signal_inverted="no" name="Inter_Y[2]"/>
+            <net is_signal_inverted="no" name="Inter_Y[3]"/>
+            <net is_signal_inverted="no" name="Inter_Y[4]"/>
+            <net is_signal_inverted="no" name="Inter_Y[5]"/>
+            <net is_signal_inverted="no" name="Inter_Y[6]"/>
+            <net is_signal_inverted="no" name="Inter_Y[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC_Y1" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="DSC_Y1[0]"/>
+            <net is_signal_inverted="no" name="DSC_Y1[1]"/>
+            <net is_signal_inverted="no" name="DSC_Y1[2]"/>
+            <net is_signal_inverted="no" name="DSC_Y1[3]"/>
+            <net is_signal_inverted="no" name="DSC_Y1[4]"/>
+            <net is_signal_inverted="no" name="DSC_Y1[5]"/>
+            <net is_signal_inverted="no" name="DSC_Y1[6]"/>
+            <net is_signal_inverted="no" name="DSC_Y1[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC_Y2" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="DSC_Y2[0]"/>
+            <net is_signal_inverted="no" name="DSC_Y2[1]"/>
+            <net is_signal_inverted="no" name="DSC_Y2[2]"/>
+            <net is_signal_inverted="no" name="DSC_Y2[3]"/>
+            <net is_signal_inverted="no" name="DSC_Y2[4]"/>
+            <net is_signal_inverted="no" name="DSC_Y2[5]"/>
+            <net is_signal_inverted="no" name="DSC_Y2[6]"/>
+            <net is_signal_inverted="no" name="DSC_Y2[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="LCD_Data" order="lsb_to_msb" radix="line" state="collapse" type="register">
+            <net is_signal_inverted="no" name="LCD_Data[0]"/>
+            <net is_signal_inverted="no" name="LCD_Data[1]"/>
+            <net is_signal_inverted="no" name="LCD_Data[2]"/>
+            <net is_signal_inverted="no" name="LCD_Data[3]"/>
+            <net is_signal_inverted="no" name="LCD_Data[4]"/>
+            <net is_signal_inverted="no" name="LCD_Data[5]"/>
+            <net is_signal_inverted="no" name="LCD_Data[6]"/>
+            <net is_signal_inverted="no" name="LCD_Data[7]"/>
+          </bus>
+          <net is_signal_inverted="no" name="LCLK"/>
+          <bus is_signal_inverted="no" link="all" name="ImaDRAM:ImaDRAM_inst|q" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[0]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[1]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[2]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[3]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[4]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[5]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[6]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|q[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="mult88:mult88_inst1|result" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[0]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[1]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[2]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[3]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[4]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[5]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[6]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[7]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[8]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[9]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[10]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[11]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[12]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[13]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[14]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[15]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[16]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst1|result[17]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="mult88:mult88_inst2|result" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[0]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[1]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[2]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[3]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[4]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[5]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[6]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[7]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[8]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[9]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[10]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[11]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[12]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[13]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[14]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[15]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[16]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst2|result[17]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="mult88:mult88_inst3|result" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[0]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[1]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[2]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[3]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[4]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[5]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[6]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[7]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[8]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[9]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[10]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[11]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[12]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[13]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[14]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[15]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[16]"/>
+            <net is_signal_inverted="no" name="mult88:mult88_inst3|result[17]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="DSC_Counter" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="DSC_Counter[0]"/>
+            <net is_signal_inverted="no" name="DSC_Counter[1]"/>
+            <net is_signal_inverted="no" name="DSC_Counter[2]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="ImaDRAM:ImaDRAM_inst|rdaddress" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[0]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[1]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[2]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[3]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[4]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[5]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[6]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[7]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[8]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[9]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[10]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[11]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[12]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[13]"/>
+            <net is_signal_inverted="no" name="ImaDRAM:ImaDRAM_inst|rdaddress[14]"/>
+          </bus>
+        </setup_view>
+      </presentation>
+      <trigger CRC="8D135DE1" attribute_mem_mode="false" gap_record="true" global_temp="1" name="trigger: 2014/08/26 20:44:31  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_in="dont_care" trigger_out="active high" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no" trigger_in="dont_care" trigger_out="active high"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">'DSC:DSC_Inst|Column[0]' == low &amp;&amp; 'DSC:DSC_Inst|Column[1]' == low &amp;&amp; 'DSC:DSC_Inst|Column[2]' == low &amp;&amp; 'DSC:DSC_Inst|Column[3]' == high &amp;&amp; 'DSC:DSC_Inst|Column[4]' == low &amp;&amp; 'DSC:DSC_Inst|Column[5]' == high &amp;&amp; 'DSC:DSC_Inst|Column[6]' == low &amp;&amp; 'DSC:DSC_Inst|Column[7]' == high &amp;&amp; 'DSC:DSC_Inst|Column[8]' == low &amp;&amp; 'DSC:DSC_Inst|Column[9]' == low &amp;&amp; 'DSC:DSC_Inst|Row[0]' == low &amp;&amp; 'DSC:DSC_Inst|Row[1]' == high &amp;&amp; 'DSC:DSC_Inst|Row[2]' == low &amp;&amp; 'DSC:DSC_Inst|Row[3]' == low &amp;&amp; 'DSC:DSC_Inst|Row[4]' == high &amp;&amp; 'DSC:DSC_Inst|Row[5]' == low &amp;&amp; 'DSC:DSC_Inst|Row[6]' == high &amp;&amp; 'DSC:DSC_Inst|Row[7]' == high &amp;&amp; 'DSC:DSC_Inst|Row[8]' == low &amp;&amp; 'DSC:DSC_Inst|Row[9]' == low
+            <power_up enabled="yes">
+            </power_up>
+            <op_node/>
+          </level>
+        </events>
+        <storage_qualifier_events>
+          <transitional>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            <pwr_up_transitional>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+            </pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+        <log>
+          <data global_temp="1" name="log: 2014/08/26 21:01:44  #0" power_up_mode="false" sample_depth="63" trigger_position="8">11100101000100000000001001001100111100110101001011001111100000000101101011111010111111000000000000000000000000000000000000000000000000000000000000111101001011110001110111010111000000001000000000000000000000000000000000000000000000000000000111001010001000000000010010011001111001101010010110011111000000001011010111110101111111000000000000000000000000000000000000000000000000000000000001111010010111100011101110101110000000010000000000000000000000000000000000000000000000000000001110010100010000000000100100110011110011010100101100111110000000010110101111101011111101000000000000000000000000000000000000000000000000000000000111110000101101101011011101011100000000100000000000000000000000000000000000000000000000000000011100101000100000000001001001100111100110101001011001111100000000101101011111010111111110000000000000000000000000000000000000000000000000000000001111100001011011010110111010111000000001000000000000000000000000000000000000000000000000000000111001010001000000000010010011001111001101010010110011111000000001011010111110101111110010000000000000000000000000000000000000000000000000000000001111010010110110101101110101110000000000000000000000000000000000000000000000000000000000000001110010100010000000000100100110011110011010100101100111110000000010110101111101011111110100000000000000000000000000000000000000000000000000000000011110100101101101011011101011100000000000000000000000000000000000000000000000000000000000000011100101000100000000001001001100111100110101001011001111100000000101101011111010111111011000000000000000000000000000000000000000000000000000000001111100001011111010110110001010000000000000000000000000000000000000000000000000000000000000000111001010001000000000010010011001111001101010010110011111000000001011010111110101111111110000000000000000000000000000000000000000000000000000000011111000010111110101101100010100000000000000000000000000000000000000000000000000000000000000000001010100010000000000100101111000100011010100101100111110000000010111100000000000000000000000000000000000000000000000000000000000000000000000000011110100101111101011011000101000000000100000000000000000000000000000000000000000000000000000000010101000100000000001001011110001000110101001011001111100000000101111000000000000000100000000000000000000000000000000000000000000000000000000000111101001011111010110110001010000000001000000000000000000000000000000000000000000000000000000000101010001000000000010010111100010001101010010110011111000000001011110000000000000000100000000000000000000000000000000000000000000000000000000011111000010111111001101100010100000000010000000000000000000000000000000000000000000000000000000001010100010000000000100101111000100011010100101100111110000000010111100000000000000011000000000000000000000000000000000000000000000000000000000111110000101111110011011000101000000000100000000000000000000000000000000000000000000000000000000010101000100000000001001011110001000110101001011001111100000000101111000000000000000001000000000000000000000000000000000000000000000000000000000111101001011111100110110001010000000000000000000000000000000000000000000000000000000000000000000101010001000000000010010111100010001101010010110011111000000001011110000000000000001010000000000000000000000000000000000000000000000000000000001111010010111111001101100010100000000000000000000000000000000000000000000000000000000000000000001010100010000000000100101111000100011010100101100111110000000010111100000000000000001100000000000000000000000000000000000000000000000011111111100001000101100110011010011001100000000000000000000000000000000000000000000000000000000000000000010101000100000000001001011110001000110101001011001111100000000101111000000000000000111000000000000000000000000000000000000000000000000111111111000010001011001100110100110011000000000000000000000000000000000000000000000000000000000000000100101010001000000000010011010000111110101010010110011111000000001011110000000110000000000000000000000000111111110000000000000000000000001111111100000110010110011001101001100110000000010000000000000000000000000000000000000000000000000000001001010100010000000000100110100001111101010100101100111110000000010111100000001100000010000000000000000001111111100000000000000000000000011111111000001100101100110011010011001100000000100000000000000000000000000000000000000000000000000000010010101000100000000001001101000011111010101001011001111100000000101111000000011000000010000000000000000011111111111111110000000000000000000000001111100001011111000110100110011000000001000000000000000000000000000000000000000000000000000000100101010001000000000010011010000111110101010010110011111000000001011110000000110000001100000000000000000111111111111111100000000000000000000000011111000010111110001101001100110000000010000000000000000001110010001001101000000000000000000001001010100010000000000100110100001111101010100101100111110000000010111100000001100000000100000000000000001111111111111111000000000000000000000000011110100101111100011010011001100000000000000000000000000011100100010011010000000000000000000010010101000100000000001001101000011111010101001011001111100000000101111000000011000000101000000000000000011111111111111110000000000000000000000000111101001011111000110100110011000000000000000000000000000011111100000000011000000000000000000100101010001000000000010011010000111110101010010110011111000000001011110000000110000000110000000000000000111111111111111100000000111111110000000010000100010110010001101011110000000000000000000000000000000111111000000000110000000000000000001001010100010000000000100110100001111101010100101100111110000000010111100000001100000011100000000000000001111111111111111000000001111111111111111100001000101100100011010111100000000000000000000000000000001111110000000001100000000000000000001010101000100000000001001000000001011010101001011001000010000000101100000000110100000000000000000000000011111111111111110000000011111111111111110000011001011001000110101111000000000001000000000000000000011111100000000011000000000000000000010101010001000000000010010000000010110101010010110010000100000001011000000001101000001000000000000000000111111111111111100000000111111111111111100000110010110010001101011110000000000010000000000000000000111111000000000110111000001000111100101010100010000000000100100000000101101010100101100100001000000010110000000011010000001000000000000000001111111111111111000000001111111111111111100001000101100111101010111100010111000100000000000000000001111110000000001101110000010001111001010101000100000000001001000000001011010101001011001000010000000101100000000110100000110000000000000000011111111111111110000000011111111111111111000010001011001111010101111000101110001000000000000000000011111100000000011011100000100011110010101010001000000000010010000000010110101010010110010000100000001011000000001101000000011111111100000000111111111111111100000000111111111111111100000110010110011110101011110001011100000000000000000000000111111000000000110111000001000111100101010100010000000000100100000000101101010100101100100001000000010110000000011010000010111111111000000001111111111111111000000001111111111111111000001100101100111101010111100010111000000000000000000000001111110000000001101110000010001111001010101000100000000001001000000001011010101001011001000010000000101100000000110100000011111111111111111111111111111111110000000011111111111111111000010001011101111010110100001101110000000000000000000000011111100000000011011100000100011110010101010001000000000010010000000010110101010010110010000100000001011000000001101000001111111111111111111111111111111111100000000111111110000000010000100010111011110101101000011011100001001010001110101000111111000000000110111000001000111101101010100010000000000100101011110100011010100101100100001000000010110000000011110000000011111111111111110000000011111111000000001111111100000000000001100101110111101011010000110111000110010100011101010001111110000000001101110000010001111011010101000100000000001001010111101000110101001011001000010000000101100000000111100000100111111111111111100000000111111110000000011111111000000000000011001011101111010110100001101110001011111100000000011011111100000000011110000100101111000110101010001000000000010010101111010001101010010110010000100000001011000000001111000000101111111111111111000000000000000000000000111111110000000010000100010110010110101101000010010000110111111000000000110111111000000000111100001001011110001101010100010000000000100101011110100011010100101100100001000000010110000000011110000011011111111111111110000000000000000000000001111111111111111100001000101100101101011010000100100001101111110000000001111101010000010100111000010010111100011010101000100000000001001010111101000110101001011001000010000000101100000000111100000001111111111111111100000000000000000000000011111111111111110000011001011001011010110100001001000010011111100000000011111010100000101001110000100101111000110101010001000000000010010101111010001101010010110010000100000001011000000001111000001011111111111111111000000000000000000000000111111111111111100000110010110010110101101000010010000100111111000000000110000000000000000001100001001011110001101010100010000000000100101011110100011010100101100100001000000010110000000011110000001111111111111111110000000000000000111111110000000000000000100001000101110101101010000000000100001001111110000000001100000000000000000011000010010111100011010101000100000000001001010111101000110101001011001000010000000101100000000111100000111111111111111111100000000000000001111111100000000000000001000010001011101011010100000000001000010011111100000000011000000000000000000110000100101111000001101010001000000000010011000011110001101010010110010000100000001011000000001010100000001111111111111111000000000000000011111111000000000000000000000110010111010110101000000000010000110111111000000000110000000000000000001100001001011110000011010100010000000000100110000111100011010100101100100001000000010110000000010101000010011111111111111110000000000000000111111110000000000000000000001100101110101101010000000000100001101111110000000001100000000000000000001111110000000001100110101000100000000001001100001111000110101001011001000010000000101100000000101010000010111111111111111100000000000000001111111100000000111111111000010001011001000110100000000111111111011111100000000011000000000000000000011111100000000011001101010001000000000010011000011110001101010010110010000100000001011000000001010100001101111111111111111000000000000000011111111000000001111111110000100010110010001101000000001111111110111111000000000110000000000000000000111111000000000110011010100010000000000100110000111100011010100101100100001000000010110000000010101000000111111111111111110000000000000000111111110000000011111111000001100101100100011010000000011111111001111110000000001100000000000000000001111110000000001100110101000100000000001001100001111000110101001011001000010000000101100000000101010000101111111111111111100000000000000001111111100000000111111110000011001011001000110100000000111111110011111100000000011000000000000000000011111100000000011001101010001000000000010011000011110001101010010110010000100000001011000000001010100000111111111111111111000000000000000011111111000000001111111110000100010111010001101010111101111111100111111000000000110000000000000000000111111000000000110011010100010000000000100110000111100011010100101100100001000000010110000000010101000011111111111111111110000000000000000111111110000000000000000100001000101110100011010101111011111111001111110000000001100000000000000000001111110000000001110110101000100000000001001110011000010110101001011001000010000000101110000000010110000000111111111111111100000000000000001111111100000000000000000000011001011101000110101011110111111111011111100000000011000000000000000000011111100000000011101101010001000000000010011100110000101101010010110010000100000001011100000000101100001001111111111111111000000000000000011111111000000000000000000000110010111010001101010111101111111110111111000000000110000000000000000000100001001011110101011010100010000000000100111001100001011010100101100100001000000010111000000001011000001011111111111111110000000000000000111111110000000000000000100001000101110100011010101111010100001101111110000000001100000000000000000001000010010111101010110101000100000000001001110011000010110101001011001000010000000101110000000010110000110111111111111111100000000000000001111111100000000000000001000010001011101000110101011110101000011011111100000000011000000000000000000010000100101111010101101010001000000000010011100110000101101010010110010000100000001011100000000101100000010000000011111111000000000000000011111111000000000000000000000110010111010001101010111101010000100111111000000000110000000000000000000100001001011110101011010100010000000000100111001100001011010100101100100001000000010111000000001011000010100000000111111110000000000000000111111110000000000000000000001100101110100011010101111010100001001111110000000001100000000000000000001000010010111101010110101000100000000001001110011000010110101001011001000010000000101110000000010110000011000000000000000000000000000000001111111100000000000000001000010001011011000110110000111101000010011111100000000011000000000000000000010000100101111010101101010001000000000010011100110000101101010010110010000100000001011100000000101100001110000000000000000000000000000000011111111000000000000000010000100010110110001101100001111010000101001101001110010000000000000000000000100001001011110100111010100010000000000100101110101101011010100101100100001000000010111000000001111000000000000000000000000000000000000000111111110000000000000000000001100101101100011011000011110100001110011010011100100000000000000000000001000010010111101001110101000100000000001001011101011010110101001011001000010000000101110000000011110000100000000000000000000000000000000001111111100000000000000000000011001011011000110110000111101000011000000000000000000000000000000000000111100000000011101011101010001000000000010010111010110101101010010110010000100000001011100000000111100000100000000000000000000000000000000011111111000000000000000010000100010111000101101100001110111100010000000000000000000000000000000000001111000000000111010111010100010000000000100101110101101011010100101100100001000000010111000000001111000011000000000000000000000000000000000111111110000000000000000100001000101110001011011000011101111000100000000000000000000000000000000000011110000000001110101110101000100000000001001011101011010110101001011001000010000000101110000000011110000001000000000000000000000000000000001111111100000000000000000000011001011100010110110000111011110000000000000000000000000000000000000000111100000000011101011101010001000000000010010111010110101101010010110010000100000001011100000000111100001010000000000000000000000000000000011111111000000000000000000000110010111000101101100001110111100000000000000000000000000000000000000001111000000000111010111010100010000000000100101110101101011010100101100100001000000010111000000001111000001100000000000000000000000000000000000000000000000000000000100001000101101001011011100110001111000000000000000000000000000000000000000011110000000001110101110101000100000000001001011101011010110101001011001000010000000101110000000011110000111000000000000000000000000000000000000000000000000000000001000010001011010010110111001100011110000000000000000000000000000000000000000111100000000011101</data>
+          <extradata>11111111T1111111111111111111111111111111111111111111111111111111</extradata>
+        </log>
+      </trigger>
+    </signal_set>
+  </instance>
+  <mnemonics/>
+  <static_plugin_mnemonics/>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="lock mode" value="36110"/>
+    <multi attribute="window position" size="9" value="1600,783,398,140,0,50,65,0,0"/>
+  </global_info>
+</session>

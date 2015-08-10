@@ -1,0 +1,424 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP3C40 (0x020F40DD)" sof_file="ArrayUltrasound.sof" top_level_entity="ArrayUltrasound">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <signal_set global_temp="1" is_expanded="true" name="signal_set: 2014/11/03 16:14:49  #0">
+      <clock name="Transmit:Transmit_Inst|Transmit_CLK" polarity="posedge" tap_mode="classic"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="256" trigger_in_enable="no" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[0]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[1]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[2]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[3]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[4]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[5]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[6]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[0]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[1]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[2]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[3]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[4]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[5]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[6]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|TXN" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|TXP" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|Pr_Gate" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|RX_Gate" tap_mode="classic" type="combinatorial"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[0]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[1]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[2]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[3]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[4]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[5]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[6]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[0]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[1]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[2]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[3]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[4]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[5]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[6]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|TXN" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|TXP" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|Pr_Gate" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|RX_Gate" tap_mode="classic" type="combinatorial"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[0]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[1]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[2]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[3]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[4]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[5]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[6]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[0]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[1]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[2]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[3]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[4]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[5]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[6]" tap_mode="classic" type="register"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|TXN" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|TXP" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|N[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[0]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[10]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[11]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[12]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[13]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[14]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[15]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[1]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[2]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[3]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[4]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[5]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[6]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[7]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[8]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|P[9]" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|Pr_Gate" tap_mode="classic" type="combinatorial"/>
+          <wire name="Transmit:Transmit_Inst|RX_Gate" tap_mode="classic" type="combinatorial"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <data_view>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|Pr_Gate"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|RX_Gate"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[0]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[0]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[1]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[1]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[2]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[2]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[3]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[3]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[4]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[4]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[5]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[5]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[6]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[6]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[7]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[7]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[8]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[8]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[9]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[9]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[10]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[10]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[11]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[11]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[12]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[12]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[13]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[13]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[14]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[14]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[15]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[15]"/>
+          <bus is_signal_inverted="no" link="all" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[0]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[1]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[2]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[3]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[4]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[5]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[6]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[0]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[1]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[2]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[3]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[4]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[5]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[6]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[0]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[1]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[2]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[3]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[4]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[5]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[6]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[0]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[1]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[2]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[3]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[4]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[5]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[6]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|TXN"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|TXP"/>
+        </data_view>
+        <setup_view>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|Pr_Gate"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|RX_Gate"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[0]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[1]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[2]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[3]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[4]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[5]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[6]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[7]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[8]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[9]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[10]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[11]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[12]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[13]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[14]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|P[15]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[0]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[1]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[2]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[3]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[4]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[5]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[6]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[7]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[8]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[9]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[10]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[11]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[12]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[13]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[14]"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|N[15]"/>
+          <bus is_signal_inverted="no" link="all" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[0]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[1]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[2]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[3]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[4]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[5]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[6]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|EmitDelay[7]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[0]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[1]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[2]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[3]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[4]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[5]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Delay_Counter[6]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter" order="lsb_to_msb" radix="hex" state="collapse" type="register">
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[0]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[1]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[2]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[3]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[4]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[5]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Counter[6]"/>
+          </bus>
+          <bus is_signal_inverted="no" link="all" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width" order="lsb_to_msb" radix="hex" state="collapse" type="combinatorial">
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[0]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[1]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[2]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[3]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[4]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[5]"/>
+            <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|Emit_Width[6]"/>
+          </bus>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|TXN"/>
+          <net is_signal_inverted="no" name="Transmit:Transmit_Inst|EmitOneCH:EmitOneCH1|TXP"/>
+        </setup_view>
+      </presentation>
+      <trigger CRC="FE48DD8B" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2014/11/03 16:14:49  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_in="dont_care" trigger_out="active high" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no" trigger_in="dont_care" trigger_out="active high"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">'Transmit:Transmit_Inst|RX_Gate' == rising edge
+            
+            <power_up enabled="yes">
+            </power_up>
+            <op_node/>
+          </level>
+        </events>
+        <storage_qualifier_events>
+          <transitional>00000000000000000000000000000000000000000000000000000000000000000
+            
+            <pwr_up_transitional>00000000000000000000000000000000000000000000000000000000000000000
+            
+            </pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+        <log>
+          <data global_temp="1" name="log: 2014/11/04 10:10:28  #0" power_up_mode="false" sample_depth="256" trigger_position="255">11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</data>
+          <extradata>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111T</extradata>
+        </log>
+      </trigger>
+    </signal_set>
+    <position_info>
+      <single attribute="active tab" value="0"/>
+      <single attribute="data horizontal scroll position" value="0"/>
+      <single attribute="data vertical scroll position" value="16"/>
+      <single attribute="setup horizontal scroll position" value="0"/>
+      <single attribute="setup vertical scroll position" value="25"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom level numerator" value="1"/>
+      <single attribute="zoom offset denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="130816"/>
+    </position_info>
+  </instance>
+  <mnemonics/>
+  <static_plugin_mnemonics/>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="lock mode" value="36110"/>
+    <multi attribute="window position" size="9" value="1584,783,398,157,0,50,124,0,1"/>
+  </global_info>
+</session>

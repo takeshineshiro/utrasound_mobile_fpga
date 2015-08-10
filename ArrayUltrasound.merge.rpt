@@ -1,0 +1,780 @@
+Partition Merge report for ArrayUltrasound
+Thu Jul 30 14:06:41 2015
+Quartus II 32-bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Partition Merge Summary
+  3. Partition Merge Netlist Types Used
+  4. Partition Merge Partition Warnings
+  5. Partition Merge Partition Statistics
+  6. Partition Merge Partition Pin Processing
+  7. Partition Merge Resource Usage Summary
+  8. Partition Merge RAM Summary
+  9. Partition Merge DSP Block Usage Summary
+ 10. Partition Merge Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Partition Merge Summary                                                          ;
++------------------------------------+---------------------------------------------+
+; Partition Merge Status             ; Successful - Thu Jul 30 14:06:41 2015       ;
+; Quartus II 32-bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
+; Revision Name                      ; ArrayUltrasound                             ;
+; Top-level Entity Name              ; ArrayUltrasound                             ;
+; Family                             ; Cyclone III                                 ;
+; Total logic elements               ; 13,916                                      ;
+;     Total combinational functions  ; 10,488                                      ;
+;     Dedicated logic registers      ; 11,929                                      ;
+; Total registers                    ; 11929                                       ;
+; Total pins                         ; 71                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 853,016                                     ;
+; Embedded Multiplier 9-bit elements ; 16                                          ;
+; Total PLLs                         ; 2                                           ;
++------------------------------------+---------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Netlist Types Used                                                                                            ;
++--------------------------------+----------------+-------------------+------------------------+--------------------------------+
+; Partition Name                 ; Partition Type ; Netlist Type Used ; Netlist Type Requested ; Partition Contents             ;
++--------------------------------+----------------+-------------------+------------------------+--------------------------------+
+; Top                            ; User-created   ; Source File       ; Source File            ;                                ;
+; Transmit:Transmit_Inst         ; User-created   ; Source File       ; Source File            ; Transmit:Transmit_Inst         ;
+; sld_hub:auto_hub               ; Auto-generated ; Post-Synthesis    ; Post-Synthesis         ; sld_hub:auto_hub               ;
+; hard_block:auto_generated_inst ; Auto-generated ; Source File       ; Source File            ; hard_block:auto_generated_inst ;
++--------------------------------+----------------+-------------------+------------------------+--------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Partition Merge Partition Warnings                                                 ;
++----------------------------------+------------------------+------------------------+
+; Port                             ; Partition              ; Info                   ;
++----------------------------------+------------------------+------------------------+
+; Transmit:Transmit_Inst|HV_SW_CLR ; Transmit:Transmit_Inst ; Driven by constant GND ;
++----------------------------------+------------------------+------------------------+
+Note: The Incremental Compilation Advisor can be used to get more detailed recommendations.
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Partition Statistics                                                                                              ;
++---------------------------------------------+--------+------------------------+------------------+--------------------------------+
+; Statistic                                   ; Top    ; Transmit:Transmit_Inst ; sld_hub:auto_hub ; hard_block:auto_generated_inst ;
++---------------------------------------------+--------+------------------------+------------------+--------------------------------+
+; Estimated Total logic elements              ; 11782  ; 1832                   ; 302              ; 0                              ;
+;                                             ;        ;                        ;                  ;                                ;
+; Total combinational functions               ; 8389   ; 1815                   ; 284              ; 0                              ;
+; Logic element usage by number of LUT inputs ;        ;                        ;                  ;                                ;
+;     -- 4 input functions                    ; 1972   ; 655                    ; 101              ; 0                              ;
+;     -- 3 input functions                    ; 5010   ; 704                    ; 132              ; 0                              ;
+;     -- <=2 input functions                  ; 1407   ; 456                    ; 51               ; 0                              ;
+;                                             ;        ;                        ;                  ;                                ;
+; Logic elements by mode                      ;        ;                        ;                  ;                                ;
+;     -- normal mode                          ; 3623   ; 1576                   ; 274              ; 0                              ;
+;     -- arithmetic mode                      ; 4766   ; 239                    ; 10               ; 0                              ;
+;                                             ;        ;                        ;                  ;                                ;
+; Total registers                             ; 10825  ; 934                    ; 170              ; 0                              ;
+;     -- Dedicated logic registers            ; 10825  ; 934                    ; 170              ; 0                              ;
+;     -- I/O registers                        ; 0      ; 0                      ; 0                ; 0                              ;
+;                                             ;        ;                        ;                  ;                                ;
+; Virtual pins                                ; 0      ; 0                      ; 0                ; 0                              ;
+; I/O pins                                    ; 71     ; 0                      ; 0                ; 0                              ;
+; Embedded Multiplier 9-bit elements          ; 16     ; 0                      ; 0                ; 0                              ;
+; Total memory bits                           ; 787472 ; 65544                  ; 0                ; 0                              ;
+; Total RAM block bits                        ; 0      ; 0                      ; 0                ; 0                              ;
+; JTAG                                        ; 1      ; 0                      ; 0                ; 0                              ;
+; PLL                                         ; 0      ; 0                      ; 0                ; 2                              ;
+;                                             ;        ;                        ;                  ;                                ;
+; Connections                                 ;        ;                        ;                  ;                                ;
+;     -- Input Connections                    ; 11508  ; 4301                   ; 266              ; 2                              ;
+;     -- Registered Input Connections         ; 11080  ; 1406                   ; 180              ; 0                              ;
+;     -- Output Connections                   ; 3853   ; 65                     ; 413              ; 11746                          ;
+;     -- Registered Output Connections        ; 2686   ; 57                     ; 412              ; 0                              ;
+;                                             ;        ;                        ;                  ;                                ;
+; Internal Connections                        ;        ;                        ;                  ;                                ;
+;     -- Total Connections                    ; 68104  ; 14210                  ; 1943             ; 11750                          ;
+;     -- Registered Connections               ; 49855  ; 6109                   ; 1322             ; 0                              ;
+;                                             ;        ;                        ;                  ;                                ;
+; External Connections                        ;        ;                        ;                  ;                                ;
+;     -- Top                                  ; 632    ; 3334                   ; 481              ; 10914                          ;
+;     -- Transmit:Transmit_Inst               ; 3334   ; 0                      ; 198              ; 834                            ;
+;     -- sld_hub:auto_hub                     ; 481    ; 198                    ; 0                ; 0                              ;
+;     -- hard_block:auto_generated_inst       ; 10914  ; 834                    ; 0                ; 0                              ;
+;                                             ;        ;                        ;                  ;                                ;
+; Partition Interface                         ;        ;                        ;                  ;                                ;
+;     -- Input Ports                          ; 77     ; 58                     ; 65               ; 2                              ;
+;     -- Output Ports                         ; 81     ; 65                     ; 77               ; 4                              ;
+;     -- Bidir Ports                          ; 1      ; 0                      ; 0                ; 0                              ;
+;                                             ;        ;                        ;                  ;                                ;
+; Registered Ports                            ;        ;                        ;                  ;                                ;
+;     -- Registered Input Ports               ; 0      ; 25                     ; 3                ; 0                              ;
+;     -- Registered Output Ports              ; 0      ; 57                     ; 66               ; 0                              ;
+;                                             ;        ;                        ;                  ;                                ;
+; Port Connectivity                           ;        ;                        ;                  ;                                ;
+;     -- Input Ports driven by GND            ; 0      ; 0                      ; 17               ; 0                              ;
+;     -- Output Ports driven by GND           ; 0      ; 4                      ; 1                ; 0                              ;
+;     -- Input Ports driven by VCC            ; 0      ; 0                      ; 0                ; 0                              ;
+;     -- Output Ports driven by VCC           ; 0      ; 0                      ; 0                ; 0                              ;
+;     -- Input Ports with no Source           ; 0      ; 0                      ; 1                ; 0                              ;
+;     -- Output Ports with no Source          ; 0      ; 0                      ; 0                ; 0                              ;
+;     -- Input Ports with no Fanout           ; 0      ; 3                      ; 2                ; 0                              ;
+;     -- Output Ports with no Fanout          ; 0      ; 0                      ; 25               ; 0                              ;
++---------------------------------------------+--------+------------------------+------------------+--------------------------------+
+Note: Resource usage numbers presented for Partitions containing post-synthesis logic are estimates.  For Partitions containing post-fit logic, resource usage numbers are accurate based on previous placement information.  Actual Fitter results may vary depending on current Fitter Preservation Level assignments.
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Partition Pin Processing                                                                                                                                                      ;
++----------------------------------------------------------------------------------------------+------------------------+---------------+----------+--------------------------------------------+
+; Name                                                                                         ; Partition              ; Type          ; Location ; Status                                     ;
++----------------------------------------------------------------------------------------------+------------------------+---------------+----------+--------------------------------------------+
+; ADCLK                                                                                        ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- ADCLK                                                                                 ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- ADCLK~output                                                                          ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; AX[0]                                                                                        ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- AX[0]                                                                                 ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- AX[0]~output                                                                          ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|AX[0]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; AX[1]                                                                                        ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- AX[1]                                                                                 ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- AX[1]~output                                                                          ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|AX[1]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; AX[2]                                                                                        ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- AX[2]                                                                                 ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- AX[2]~output                                                                          ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|AX[2]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; AX[3]                                                                                        ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- AX[3]                                                                                 ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- AX[3]~output                                                                          ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|AX[3]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; AY[0]                                                                                        ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- AY[0]                                                                                 ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- AY[0]~output                                                                          ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|AY[0]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; AY[1]                                                                                        ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- AY[1]                                                                                 ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- AY[1]~output                                                                          ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|AY[1]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; AY[2]                                                                                        ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- AY[2]                                                                                 ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- AY[2]~output                                                                          ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|AY[2]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; CC3200_SPI_CLK                                                                               ; Top                    ; Input Port    ; n/a      ;                                            ;
+;     -- CC3200_SPI_CLK                                                                        ; Top                    ; Input Pad     ; Unplaced ; Synthesized                                ;
+;     -- CC3200_SPI_CLK~input                                                                  ; Top                    ; Input Buffer  ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; CC3200_SPI_CS                                                                                ; Top                    ; Input Port    ; n/a      ;                                            ;
+;     -- CC3200_SPI_CS                                                                         ; Top                    ; Input Pad     ; Unplaced ; Synthesized                                ;
+;     -- CC3200_SPI_CS~input                                                                   ; Top                    ; Input Buffer  ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; CC3200_SPI_DIN                                                                               ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- CC3200_SPI_DIN                                                                        ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- CC3200_SPI_DIN~output                                                                 ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; CC3200_SPI_DOUT                                                                              ; Top                    ; Input Port    ; n/a      ;                                            ;
+;     -- CC3200_SPI_DOUT                                                                       ; Top                    ; Input Pad     ; Unplaced ; Synthesized                                ;
+;     -- CC3200_SPI_DOUT~input                                                                 ; Top                    ; Input Buffer  ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_N[0]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_N[0]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_N[0]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|N[0]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_N[10]                                                                                      ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_N[10]                                                                               ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_N[10]~output                                                                        ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|N[10]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_N[11]                                                                                      ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_N[11]                                                                               ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_N[11]~output                                                                        ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|N[11]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_N[12]                                                                                      ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_N[12]                                                                               ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_N[12]~output                                                                        ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|N[12]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_N[13]                                                                                      ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_N[13]                                                                               ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_N[13]~output                                                                        ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|N[13]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_N[14]                                                                                      ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_N[14]                                                                               ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_N[14]~output                                                                        ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|N[14]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_N[15]                                                                                      ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_N[15]                                                                               ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_N[15]~output                                                                        ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|N[15]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_N[1]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_N[1]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_N[1]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|N[1]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_N[2]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_N[2]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_N[2]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|N[2]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_N[3]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_N[3]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_N[3]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|N[3]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_N[4]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_N[4]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_N[4]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|N[4]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_N[5]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_N[5]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_N[5]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|N[5]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_N[6]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_N[6]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_N[6]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|N[6]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_N[7]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_N[7]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_N[7]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|N[7]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_N[8]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_N[8]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_N[8]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|N[8]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_N[9]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_N[9]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_N[9]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|N[9]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_P[0]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_P[0]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_P[0]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|P[0]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_P[10]                                                                                      ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_P[10]                                                                               ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_P[10]~output                                                                        ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|P[10]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_P[11]                                                                                      ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_P[11]                                                                               ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_P[11]~output                                                                        ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|P[11]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_P[12]                                                                                      ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_P[12]                                                                               ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_P[12]~output                                                                        ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|P[12]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_P[13]                                                                                      ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_P[13]                                                                               ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_P[13]~output                                                                        ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|P[13]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_P[14]                                                                                      ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_P[14]                                                                               ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_P[14]~output                                                                        ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|P[14]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_P[15]                                                                                      ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_P[15]                                                                               ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_P[15]~output                                                                        ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|P[15]                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_P[1]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_P[1]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_P[1]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|P[1]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_P[2]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_P[2]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_P[2]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|P[2]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_P[3]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_P[3]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_P[3]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|P[3]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_P[4]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_P[4]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_P[4]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|P[4]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_P[5]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_P[5]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_P[5]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|P[5]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_P[6]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_P[6]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_P[6]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|P[6]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_P[7]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_P[7]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_P[7]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|P[7]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_P[8]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_P[8]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_P[8]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|P[8]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; E_P[9]                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- E_P[9]                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- E_P[9]~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|P[9]                                                           ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; Envelop                                                                                      ; Top                    ; Input Port    ; n/a      ;                                            ;
+;     -- Envelop                                                                               ; Top                    ; Input Pad     ; Unplaced ; Synthesized                                ;
+;     -- Envelop~input                                                                         ; Top                    ; Input Buffer  ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; FCO                                                                                          ; Top                    ; Input Port    ; n/a      ;                                            ;
+;     -- FCO                                                                                   ; Top                    ; Input Pad     ; Unplaced ; Synthesized                                ;
+;     -- FCO~input                                                                             ; Top                    ; Input Buffer  ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; HV_EN                                                                                        ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- HV_EN                                                                                 ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- HV_EN~output                                                                          ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; HV_SW_CLK                                                                                    ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- HV_SW_CLK                                                                             ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- HV_SW_CLK~output                                                                      ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|HV_SW_CLK                                                      ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; HV_SW_CLR                                                                                    ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- HV_SW_CLR                                                                             ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- HV_SW_CLR~output                                                                      ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|HV_SW_CLR                                                      ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; HV_SW_DOUT                                                                                   ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- HV_SW_DOUT                                                                            ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- HV_SW_DOUT~output                                                                     ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|HV_SW_DOUT                                                     ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; HV_SW_LE                                                                                     ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- HV_SW_LE                                                                              ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- HV_SW_LE~output                                                                       ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|HV_SW_LE                                                       ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; MT_CS                                                                                        ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- MT_CS                                                                                 ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- MT_CS~output                                                                          ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|MT_CS                                                          ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; MT_Data                                                                                      ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- MT_Data                                                                               ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- MT_Data~output                                                                        ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|MT_Data                                                        ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; MT_Strobe                                                                                    ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- MT_Strobe                                                                             ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- MT_Strobe~output                                                                      ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;     -- Transmit:Transmit_Inst|MT_Strobe                                                      ; Transmit:Transmit_Inst ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; OUTA                                                                                         ; Top                    ; Input Port    ; n/a      ;                                            ;
+;     -- OUTA                                                                                  ; Top                    ; Input Pad     ; Unplaced ; Synthesized                                ;
+;     -- OUTA~input                                                                            ; Top                    ; Input Buffer  ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; OUTB                                                                                         ; Top                    ; Input Port    ; n/a      ;                                            ;
+;     -- OUTB                                                                                  ; Top                    ; Input Pad     ; Unplaced ; Synthesized                                ;
+;     -- OUTB~input                                                                            ; Top                    ; Input Buffer  ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; OUTC                                                                                         ; Top                    ; Input Port    ; n/a      ;                                            ;
+;     -- OUTC                                                                                  ; Top                    ; Input Pad     ; Unplaced ; Synthesized                                ;
+;     -- OUTC~input                                                                            ; Top                    ; Input Buffer  ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; OUTD                                                                                         ; Top                    ; Input Port    ; n/a      ;                                            ;
+;     -- OUTD                                                                                  ; Top                    ; Input Pad     ; Unplaced ; Synthesized                                ;
+;     -- OUTD~input                                                                            ; Top                    ; Input Buffer  ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; OUTE                                                                                         ; Top                    ; Input Port    ; n/a      ;                                            ;
+;     -- OUTE                                                                                  ; Top                    ; Input Pad     ; Unplaced ; Synthesized                                ;
+;     -- OUTE~input                                                                            ; Top                    ; Input Buffer  ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; OUTF                                                                                         ; Top                    ; Input Port    ; n/a      ;                                            ;
+;     -- OUTF                                                                                  ; Top                    ; Input Pad     ; Unplaced ; Synthesized                                ;
+;     -- OUTF~input                                                                            ; Top                    ; Input Buffer  ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; OUTG                                                                                         ; Top                    ; Input Port    ; n/a      ;                                            ;
+;     -- OUTG                                                                                  ; Top                    ; Input Pad     ; Unplaced ; Synthesized                                ;
+;     -- OUTG~input                                                                            ; Top                    ; Input Buffer  ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; OUTH                                                                                         ; Top                    ; Input Port    ; n/a      ;                                            ;
+;     -- OUTH                                                                                  ; Top                    ; Input Pad     ; Unplaced ; Synthesized                                ;
+;     -- OUTH~input                                                                            ; Top                    ; Input Buffer  ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; PWDN                                                                                         ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- PWDN                                                                                  ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- PWDN~output                                                                           ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; SPI_CLK                                                                                      ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- SPI_CLK                                                                               ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- SPI_CLK~output                                                                        ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; SPI_CS                                                                                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- SPI_CS                                                                                ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- SPI_CS~output                                                                         ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; SPI_Data                                                                                     ; Top                    ; Bidir Port    ; n/a      ;                                            ;
+;     -- SPI_Data                                                                              ; Top                    ; Bidir Pad     ; Unplaced ; Synthesized                                ;
+;     -- SPI_Data~output                                                                       ; Top                    ; Output Buffer ; Unplaced ; Preserved from Synthesis Netlist (WYSIWYG) ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; STBY                                                                                         ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- STBY                                                                                  ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- STBY~output                                                                           ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; altera_reserved_tck                                                                          ; Top                    ; Input Port    ; n/a      ;                                            ;
+;     -- altera_reserved_tck                                                                   ; Top                    ; Input Pad     ; Unplaced ; Synthesized                                ;
+;     -- altera_reserved_tck~input                                                             ; Top                    ; Input Buffer  ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; altera_reserved_tdi                                                                          ; Top                    ; Input Port    ; n/a      ;                                            ;
+;     -- altera_reserved_tdi                                                                   ; Top                    ; Input Pad     ; Unplaced ; Synthesized                                ;
+;     -- altera_reserved_tdi~input                                                             ; Top                    ; Input Buffer  ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; altera_reserved_tdo                                                                          ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- altera_reserved_tdo                                                                   ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- altera_reserved_tdo~output                                                            ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; altera_reserved_tms                                                                          ; Top                    ; Input Port    ; n/a      ;                                            ;
+;     -- altera_reserved_tms                                                                   ; Top                    ; Input Pad     ; Unplaced ; Synthesized                                ;
+;     -- altera_reserved_tms~input                                                             ; Top                    ; Input Buffer  ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_clr                     ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_ena                     ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_0_                ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_1_                ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_2_                ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_3_                ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_4_                ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_0_               ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_1_               ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_2_               ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_3_               ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_4_               ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_cdr          ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_e1dr         ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_sdr          ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_udr          ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_uir          ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_raw_tck                 ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_tdi                     ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_tdo                     ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.LOG_Table_inst_altsyncram_component_auto_generated_mgl_prim2_usr1                    ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_clr             ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_ena             ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_0_        ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_1_        ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_2_        ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_3_        ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_4_        ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_0_       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_1_       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_2_       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_3_       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_4_       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_cdr  ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_e1dr ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_sdr  ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_udr  ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_uir  ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_raw_tck         ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_tdi             ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_tdo             ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Receive_Inst_Apod_Inst_altsyncram_component_auto_generated_mgl_prim2_usr1            ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_clr                       ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_ena                       ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_0_                  ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_1_                  ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_2_                  ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_3_                  ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_4_                  ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_0_                 ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_1_                 ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_2_                 ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_3_                 ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_4_                 ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_cdr            ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_e1dr           ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_sdr            ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_udr            ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_uir            ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_raw_tck                   ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_tdi                       ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_tdo                       ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.TGC_ROM_inst_altsyncram_component_auto_generated_mgl_prim2_usr1                      ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_clr                          ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_ena                          ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_0_                     ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_1_                     ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_2_                     ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_3_                     ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_4_                     ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_0_                    ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_1_                    ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_2_                    ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_3_                    ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_4_                    ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_cdr               ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_e1dr              ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_sdr               ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_udr               ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_uir               ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_raw_tck                      ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_tdi                          ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_tdo                          ; Top                    ; Output Port   ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; jtag.bp.Test_inst_altsyncram_component_auto_generated_mgl_prim2_usr1                         ; Top                    ; Input Port    ; n/a      ;                                            ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; sclk                                                                                         ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- sclk                                                                                  ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- sclk~output                                                                           ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; sdin                                                                                         ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- sdin                                                                                  ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- sdin~output                                                                           ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; sync                                                                                         ; Top                    ; Output Port   ; n/a      ;                                            ;
+;     -- sync                                                                                  ; Top                    ; Output Pad    ; Unplaced ; Synthesized                                ;
+;     -- sync~output                                                                           ; Top                    ; Output Buffer ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
+; sysclk                                                                                       ; Top                    ; Input Port    ; n/a      ;                                            ;
+;     -- sysclk                                                                                ; Top                    ; Input Pad     ; Unplaced ; Synthesized                                ;
+;     -- sysclk~input                                                                          ; Top                    ; Input Buffer  ; Unplaced ; Synthesized                                ;
+;                                                                                              ;                        ;               ;          ;                                            ;
++----------------------------------------------------------------------------------------------+------------------------+---------------+----------+--------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Resource Usage Summary                                                                                                         ;
++---------------------------------------------+--------------------------------------------------------------------------------------------------+
+; Resource                                    ; Usage                                                                                            ;
++---------------------------------------------+--------------------------------------------------------------------------------------------------+
+; Estimated Total logic elements              ; 13,916                                                                                           ;
+;                                             ;                                                                                                  ;
+; Total combinational functions               ; 10488                                                                                            ;
+; Logic element usage by number of LUT inputs ;                                                                                                  ;
+;     -- 4 input functions                    ; 2728                                                                                             ;
+;     -- 3 input functions                    ; 5846                                                                                             ;
+;     -- <=2 input functions                  ; 1914                                                                                             ;
+;                                             ;                                                                                                  ;
+; Logic elements by mode                      ;                                                                                                  ;
+;     -- normal mode                          ; 5473                                                                                             ;
+;     -- arithmetic mode                      ; 5015                                                                                             ;
+;                                             ;                                                                                                  ;
+; Total registers                             ; 11929                                                                                            ;
+;     -- Dedicated logic registers            ; 11929                                                                                            ;
+;     -- I/O registers                        ; 0                                                                                                ;
+;                                             ;                                                                                                  ;
+; I/O pins                                    ; 71                                                                                               ;
+; Total memory bits                           ; 853016                                                                                           ;
+; Embedded Multiplier 9-bit elements          ; 16                                                                                               ;
+; Total PLLs                                  ; 2                                                                                                ;
+;     -- PLLs                                 ; 2                                                                                                ;
+;                                             ;                                                                                                  ;
+; Maximum fan-out node                        ; LVDS_AD:LVDS_AD_inst_A|altlvds_rx:altlvds_rx_component|LVDS_AD_lvds_rx:auto_generated|fast_clock ;
+; Maximum fan-out                             ; 10653                                                                                            ;
+; Total fan-out                               ; 79794                                                                                            ;
+; Average fan-out                             ; 3.45                                                                                             ;
++---------------------------------------------+--------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge RAM Summary                                                                                                                                                                                                                                                  ;
++------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------+------------------+
+; Name                                                                                                                                                       ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size   ; MIF              ;
++------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------+------------------+
+; IMG_TRI_BUFFER:IMG_TRI_BUFFER_inst|alt3pram:alt3pram_component|altdpram:altdpram_component1|altsyncram:ram_block|altsyncram_m1p1:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 2048         ; 8            ; 2048         ; 8            ; 16384  ; None             ;
+; IMG_TRI_BUFFER:IMG_TRI_BUFFER_inst|alt3pram:alt3pram_component|altdpram:altdpram_component2|altsyncram:ram_block|altsyncram_m1p1:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 2048         ; 8            ; 2048         ; 8            ; 16384  ; None             ;
+; LOG_Table:LOG_Table_inst|altsyncram:altsyncram_component|altsyncram_fgb1:auto_generated|altsyncram_s3d2:altsyncram1|ALTSYNCRAM                             ; AUTO ; True Dual Port   ; 8192         ; 8            ; 8192         ; 8            ; 65536  ; LOG_Table.mif    ;
+; Receive:Receive_Inst|Apod:Apod_Inst|altsyncram:altsyncram_component|altsyncram_m4b1:auto_generated|altsyncram_bmc2:altsyncram1|ALTSYNCRAM                  ; AUTO ; True Dual Port   ; 2048         ; 64           ; 2048         ; 64           ; 131072 ; Apod.mif         ;
+; Receive:Receive_Inst|DAS_RF:DAS_RF_inst|altsyncram:altsyncram_component|altsyncram_vqn1:auto_generated|ALTSYNCRAM                                          ; AUTO ; Simple Dual Port ; 16384        ; 16           ; 16384        ; 16           ; 262144 ; None             ;
+; Receive:Receive_Inst|DPRAM:DPRAM_inst1|altsyncram:altsyncram_component|altsyncram_jgj1:auto_generated|ALTSYNCRAM                                           ; AUTO ; Simple Dual Port ; 512          ; 12           ; 512          ; 12           ; 6144   ; None             ;
+; Receive:Receive_Inst|DPRAM:DPRAM_inst2|altsyncram:altsyncram_component|altsyncram_jgj1:auto_generated|ALTSYNCRAM                                           ; AUTO ; Simple Dual Port ; 512          ; 12           ; 512          ; 12           ; 6144   ; None             ;
+; Receive:Receive_Inst|DPRAM:DPRAM_inst3|altsyncram:altsyncram_component|altsyncram_jgj1:auto_generated|ALTSYNCRAM                                           ; AUTO ; Simple Dual Port ; 512          ; 12           ; 512          ; 12           ; 6144   ; None             ;
+; Receive:Receive_Inst|DPRAM:DPRAM_inst4|altsyncram:altsyncram_component|altsyncram_jgj1:auto_generated|ALTSYNCRAM                                           ; AUTO ; Simple Dual Port ; 512          ; 12           ; 512          ; 12           ; 6144   ; None             ;
+; Receive:Receive_Inst|DPRAM:DPRAM_inst5|altsyncram:altsyncram_component|altsyncram_jgj1:auto_generated|ALTSYNCRAM                                           ; AUTO ; Simple Dual Port ; 512          ; 12           ; 512          ; 12           ; 6144   ; None             ;
+; Receive:Receive_Inst|DPRAM:DPRAM_inst6|altsyncram:altsyncram_component|altsyncram_jgj1:auto_generated|ALTSYNCRAM                                           ; AUTO ; Simple Dual Port ; 512          ; 12           ; 512          ; 12           ; 6144   ; None             ;
+; Receive:Receive_Inst|DPRAM:DPRAM_inst7|altsyncram:altsyncram_component|altsyncram_jgj1:auto_generated|ALTSYNCRAM                                           ; AUTO ; Simple Dual Port ; 512          ; 12           ; 512          ; 12           ; 6144   ; None             ;
+; Receive:Receive_Inst|DPRAM:DPRAM_inst8|altsyncram:altsyncram_component|altsyncram_jgj1:auto_generated|ALTSYNCRAM                                           ; AUTO ; Simple Dual Port ; 512          ; 12           ; 512          ; 12           ; 6144   ; None             ;
+; Receive:Receive_Inst|DynamicFocus:DynamicFocus_inst|altsyncram:altsyncram_component|altsyncram_nv91:auto_generated|ALTSYNCRAM                              ; AUTO ; ROM              ; 32768        ; 8            ; --           ; --           ; 262144 ; DynamicFocus.mif ;
+; TGC_ROM:TGC_ROM_inst|altsyncram:altsyncram_component|altsyncram_qpa1:auto_generated|altsyncram_5ac2:altsyncram1|ALTSYNCRAM                                 ; AUTO ; True Dual Port   ; 128          ; 8            ; 128          ; 8            ; 1024   ; tgc.mif          ;
+; Test:Test_inst|altsyncram:altsyncram_component|altsyncram_tva1:auto_generated|altsyncram_6ac2:altsyncram1|ALTSYNCRAM                                       ; AUTO ; True Dual Port   ; 1            ; 16           ; 1            ; 16           ; 16     ; test.mif         ;
+; Transmit:Transmit_Inst|HW_SW:HW_SW_inst|altsyncram:altsyncram_component|altsyncram_j8b1:auto_generated|altsyncram_qnc2:altsyncram1|ALTSYNCRAM              ; AUTO ; True Dual Port   ; 256          ; 128          ; 256          ; 128          ; 32768  ; HV_SW.mif        ;
+; Transmit:Transmit_Inst|R_SEQ:R_SEQ_inst|altsyncram:altsyncram_component|altsyncram_p7b1:auto_generated|altsyncram_dnc2:altsyncram1|ALTSYNCRAM              ; AUTO ; True Dual Port   ; 256          ; 128          ; 256          ; 128          ; 32768  ; R_SEQ.mif        ;
+; Transmit:Transmit_Inst|Test_Line:Test_Line_inst|altsyncram:altsyncram_component|altsyncram_tdb1:auto_generated|altsyncram_enc2:altsyncram1|ALTSYNCRAM      ; AUTO ; True Dual Port   ; 1            ; 8            ; 1            ; 8            ; 8      ; Test_Line.mif    ;
++------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------+------------------+
+
+
++-----------------------------------------------------+
+; Partition Merge DSP Block Usage Summary             ;
++---------------------------------------+-------------+
+; Statistic                             ; Number Used ;
++---------------------------------------+-------------+
+; Simple Multipliers (9-bit)            ; 0           ;
+; Simple Multipliers (18-bit)           ; 8           ;
+; Embedded Multiplier Blocks            ; --          ;
+; Embedded Multiplier 9-bit elements    ; 16          ;
+; Signed Embedded Multipliers           ; 0           ;
+; Unsigned Embedded Multipliers         ; 8           ;
+; Mixed Sign Embedded Multipliers       ; 0           ;
+; Variable Sign Embedded Multipliers    ; 0           ;
+; Dedicated Input Shift Register Chains ; 0           ;
++---------------------------------------+-------------+
+Note: number of Embedded Multiplier Blocks used is only available after a successful fit.
+
+
++--------------------------+
+; Partition Merge Messages ;
++--------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit Partition Merge
+    Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+    Info: Processing started: Thu Jul 30 14:06:34 2015
+Info: Command: quartus_cdb --read_settings_files=off --write_settings_files=off ArrayUltrasound -c ArrayUltrasound --merge=on
+Info (35007): Using synthesis netlist for partition "Top"
+Info (35007): Using synthesis netlist for partition "Transmit:Transmit_Inst"
+Info (35007): Using synthesis netlist for partition "sld_hub:auto_hub"
+Info (35002): Resolved and merged 3 partition(s)
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 2 node(s), including 0 DDIO, 2 PLL, 0 transceiver and 0 LCELL
+Info (35048): Found 1 ports with constant drivers. For more information, refer to the Partition Merger report
+Info (21057): Implemented 14613 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 17 input pins
+    Info (21059): Implemented 57 output pins
+    Info (21060): Implemented 1 bidirectional pins
+    Info (21061): Implemented 13985 logic cells
+    Info (21064): Implemented 534 RAM segments
+    Info (21065): Implemented 2 PLLs
+    Info (21062): Implemented 16 DSP elements
+Info: Quartus II 32-bit Partition Merge was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 402 megabytes
+    Info: Processing ended: Thu Jul 30 14:06:42 2015
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:06
+
+

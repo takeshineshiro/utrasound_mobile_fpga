@@ -1,0 +1,41 @@
+
+
+/home/wong/wireless_128_pointR60/128_array_fpga/ArrayUltrasound - 16T32R-R60 - wifi/LVDS_AD.v
+
+Jul 20 04PM:11:58>: Megafunction ALTLVDS is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+/home/wong/wireless_128_pointR60/128_array_fpga/ArrayUltrasound - 16T32R-R60 - wifi/LVDS_AD.v
+
+Jul 20 04PM:12:09>: Megafunction ALTLVDS is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+/home/wong/wireless_128_pointR60/128_array_fpga/ArrayUltrasound - 16T32R-R60 - wifi/LVDS_AD.v
+
+Jul 20 04PM:12:34>: Megafunction ALTLVDS is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+/home/wong/wireless_128_pointR60/128_array_fpga/ArrayUltrasound - 16T32R-R60 - wifi/ABS.v
+
+Jul 20 04PM:52:35>: Megafunction LPM_ABS is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+/home/wong/wireless_128_pointR60/128_array_fpga/ArrayUltrasound - 16T32R-R60 - wifi/LVDS_AD.v
+
+Jul 20 04PM:52:46>: Megafunction ALTLVDS is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+/home/wong/wireless_128_pointR60/128_array_fpga/ArrayUltrasound - 16T32R-R60 - wifi/LVDS_AD.v
+
+Jul 20 04PM:52:52>: Megafunction ALTLVDS is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+/home/wong/wireless_128_pointR60/128_array_fpga/ArrayUltrasound - 16T32R-R60 - wifi/lf.v
+
+Jul 20 04PM:52:56>: Megafunction FIR Compiler v9.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+/home/wong/wireless_128_pointR60/128_array_fpga/ArrayUltrasound - 16T32R-R60 - wifi/LVDS_AD.v
+
+Jul 21 03PM:32:55>: Megafunction ALTLVDS is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
